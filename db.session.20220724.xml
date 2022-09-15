@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root version="4.2" dataversion="20220411" release="5">
+	<calendar>
+		<public />
+	</calendar>
+	<charsheet>
+		<id-00001>
+			<holder name="gaerlan" owner="true" />
+			<blood type="number">0</blood>
+			<class type="string">Vermissian Sage</class>
+			<domain_academia type="number">0</domain_academia>
+			<domain_commerce type="number">0</domain_commerce>
+			<domain_crime type="number">0</domain_crime>
+			<domain_high_society type="number">0</domain_high_society>
+			<domain_low_society type="number">0</domain_low_society>
+			<domain_occult type="number">0</domain_occult>
+			<domain_order type="number">0</domain_order>
+			<domain_religion type="number">0</domain_religion>
+			<domain_technology type="number">0</domain_technology>
+			<durance type="string">Occultist</durance>
+			<name type="string">Scolexis</name>
+			<skill_compel type="number">0</skill_compel>
+			<skill_deceive type="number">0</skill_deceive>
+			<skill_fight type="number">0</skill_fight>
+			<skill_fix type="number">0</skill_fix>
+			<skill_investigate type="number">0</skill_investigate>
+			<skill_pursue type="number">0</skill_pursue>
+			<skill_resist type="number">0</skill_resist>
+			<skill_sneak type="number">0</skill_sneak>
+			<skill_steal type="number">0</skill_steal>
+			<token type="token">portrait_id-00001_token</token>
+		</id-00001>
+		<id-00002>
+			<holder name="Holythesea" owner="true" />
+			<blood type="number">0</blood>
+			<class type="string">Masked</class>
+			<domain_academia type="number">0</domain_academia>
+			<domain_commerce type="number">0</domain_commerce>
+			<domain_crime type="number">0</domain_crime>
+			<domain_high_society type="number">1</domain_high_society>
+			<domain_low_society type="number">0</domain_low_society>
+			<domain_occult type="number">0</domain_occult>
+			<domain_order type="number">1</domain_order>
+			<domain_religion type="number">0</domain_religion>
+			<domain_technology type="number">0</domain_technology>
+			<durance type="string">Spy</durance>
+			<name type="string">Zilvice Baen-duis</name>
+			<skill_compel type="number">1</skill_compel>
+			<skill_deceive type="number">0</skill_deceive>
+			<skill_fight type="number">0</skill_fight>
+			<skill_fix type="number">0</skill_fix>
+			<skill_investigate type="number">0</skill_investigate>
+			<skill_pursue type="number">0</skill_pursue>
+			<skill_resist type="number">1</skill_resist>
+			<skill_sneak type="number">0</skill_sneak>
+			<skill_steal type="number">0</skill_steal>
+			<token type="token">portrait_id-00002_token</token>
+		</id-00002>
+		<id-00003>
+			<holder name="Vzaretskiy" owner="true" />
+			<blood type="number">0</blood>
+			<domain_academia type="number">0</domain_academia>
+			<domain_commerce type="number">0</domain_commerce>
+			<domain_crime type="number">0</domain_crime>
+			<domain_high_society type="number">0</domain_high_society>
+			<domain_low_society type="number">0</domain_low_society>
+			<domain_occult type="number">0</domain_occult>
+			<domain_order type="number">0</domain_order>
+			<domain_religion type="number">0</domain_religion>
+			<domain_technology type="number">0</domain_technology>
+			<name type="string">Glayjia Baylorn</name>
+			<skill_compel type="number">0</skill_compel>
+			<skill_deceive type="number">0</skill_deceive>
+			<skill_fight type="number">0</skill_fight>
+			<skill_fix type="number">0</skill_fix>
+			<skill_investigate type="number">0</skill_investigate>
+			<skill_pursue type="number">0</skill_pursue>
+			<skill_resist type="number">0</skill_resist>
+			<skill_sneak type="number">0</skill_sneak>
+			<skill_steal type="number">0</skill_steal>
+			<token type="token">portrait_id-00003_token</token>
+		</id-00003>
+	</charsheet>
+	<combattracker>
+		<public />
+	</combattracker>
+	<currencies>
+		<public />
+	</currencies>
+	<effects>
+		<public />
+	</effects>
+	<image>
+		<id-00001>
+			<public />
+			<image type="image">
+				<allowplayerdrawing>on</allowplayerdrawing>
+				<layers>
+					<layer>
+						<name>spire_map.png</name>
+						<id>0</id>
+						<parentid>-1</parentid>
+						<type>image</type>
+						<bitmap>campaign/images/spire_map.png</bitmap>
+					</layer>
+				</layers>
+			</image>
+			<locked type="number">1</locked>
+			<name type="string">Spire Map</name>
+		</id-00001>
+		<id-00002>
+			<public />
+			<image type="image">
+				<allowplayerdrawing>on</allowplayerdrawing>
+				<layers>
+					<layer>
+						<name>spire-undercity.png</name>
+						<id>0</id>
+						<parentid>-2</parentid>
+						<type>image</type>
+						<bitmap>campaign/images/spire-undercity.png</bitmap>
+					</layer>
+					<layer>
+						<name>portraits/FG Fantasy/darkelf_female_fantasy.jpg</name>
+						<id>1</id>
+						<parentid>-1</parentid>
+						<type>token</type>
+						<token>
+							<prototype>portraits/FG Fantasy/darkelf_female_fantasy.jpg</prototype>
+							<id>1</id>
+							<publicedit />
+							<visibility>mask</visibility>
+						</token>
+						<matrix>0.1999969,0,0,0,0,0.1999512,0,0,0,0,1,0,-50,-800,0,1</matrix>
+					</layer>
+				</layers>
+			</image>
+			<locked type="number">1</locked>
+			<name type="string">Spire Undercity Map</name>
+		</id-00002>
+	</image>
+	<languages>
+		<public />
+	</languages>
+	<modifiers>
+		<public />
+	</modifiers>
+	<motd>
+		<public />
+	</motd>
+	<notes>
+		<id-00004>
+			<public />
+			<holder name="Holythesea" owner="true" />
+			<name type="string">Zilvice Baen-duis</name>
+			<text type="formattedtext">
+				<p>Durance: SPY - Sneak, Deceive. You were employed as a spy, infiltrating societies and guilds to spread misinformation and report back on their activities to your lord. You are adept at lying, cheating, and moving unseen.</p>
+				<p>Bonds:</p>
+				<p>1. Street Level:</p>
+				<p>a. Vorn Mur&#8217;ss &#8211; Hand servant to Qinrel (honored Shadow, spy, witness)</p>
+				<p>b. Yazae - ??? (Riddle, spinning, thread, web &#8211; dancer)</p>
+				<p>c. Dhaunithra - ??? (Infested Dragon/Wyrm )</p>
+				<p>d. Master: Qinrel Rimdor (Petals of Gold &#8211; Cold Mountain Pool)</p>
+				<p>2. PC: Glagia - Helped Glagia by gathering information on a group that was tagging the city with vile messages about Glagia's master.</p>
+				<p>Equipment</p>
+				<p>- My Mask: Full wooden mask with a greenish almost mossy hue. Adorned with a metal bar between the eyes running the bridge of its nose.</p>
+				<p>- Clothing Sets:</p>
+				<p>o Ceremonial robes - Red robes with gold trim</p>
+				<p>o Black pinstripe suit (?)</p>
+				<p>- Servant Mask: A plain matte black mask with the mark of Elthrai (Cross with curved horizontal piece) set into the forehead</p>
+				<p>- Dagger &#8211; Stiletto dagger</p>
+				<p />
+				<p>Background: Zilvice spent his durance in service to Qinrel Rimdor. Where he would regularly &#8216;visit&#8217; other Aelfir houses. Skulking in the shadows to overhear thought to be private conversations and relaying this back to Master Rimdor gained him favor with the master and the occasional freedoms. Never really accepting Aelfir rule, he met a kindred spirit in Glaygia, who made mention of The Ministry after their durances brought them together. He has been spending time in Red Row to get away from his previous master and to truly join The Ministry&#8217;s fight to take back Spire.</p>
+			</text>
+		</id-00004>
+		<id-00005>
+			<public />
+			<holder name="gaerlan" owner="true" />
+			<locked type="number">0</locked>
+			<name type="string">Scolexis</name>
+			<text type="formattedtext">
+				<p>SCOLEXIS CESTODA</p>
+				<p>Scrawny and unassuming, &#34;Scolexis&#34;, is a hyper-caffeinated Red Row barista by day and sleepless researcher by night. During their durance they earned the callous moniker &#34;Tapeworm&#34; from their master, and so out of a lack of creativity (and some emotional trauma) they decided to adopt it as their nom-de-plume in the Ministry.</p>
+				<p />
+				<p>Red Row serves them well as the furthest place they could be to rouse suspicion, along with a natural place to both satisfy their addiction and to observe goings-on for their own research and the Ministry's.</p>
+				<p />
+				<p>Their work uniform (apron aside) used to be white. It's now a mottled biege due to repeated stains.</p>
+				<p />
+				<p />
+				<p>Occultist</p>
+				<p />
+				<p>+2 Shadow, Occult. You plumbed</p>
+				<p>the depths of arcane knowledge for your master,</p>
+				<p>risking your sanity by poring over forbidden tomes</p>
+				<p>in an effort to unlock the secrets within. You are</p>
+				<p>used to concealing your activities from the authorities</p>
+				<p>and decoding ancient spells.</p>
+				<p />
+				<p />
+				<p>Vermissian Sage</p>
+				<p />
+				<p>Core Traits</p>
+				<p />
+				<p>RESISTANCES: Mind +3, Shadow +1</p>
+				<p />
+				<p>REFRESH: Uncover hidden information.</p>
+				<p />
+				<p>CLASS SKILLS: Investigate, Compel</p>
+				<p />
+				<p>DOMAINS: Academia, Occult, Technology</p>
+				<p />
+				<p>BONDS</p>
+				<p>&#8226; You have an individual-level bond with an</p>
+				<p>academic, researcher or guardian of the</p>
+				<p>Vault. Name them, and their specialty.</p>
+				<p>&#8226; You have a bond with another PC &#8211; you</p>
+				<p>know a secret about them. Say who it is,</p>
+				<p>what the secret is, and whether they know</p>
+				<p>you know or not.</p>
+				<p />
+				<p>EQUIPMENT</p>
+				<p />
+				<p>Either:</p>
+				<p>&#8226; Folding crossbow (D6, Ranged,</p>
+				<p>Concealable, One-shot)</p>
+				<p>Or:</p>
+				<p>&#8226; Dagger (D3, Concealable) and padded vest</p>
+				<p>(Armour 1)</p>
+				<p />
+				<p>CORE ABILITIES</p>
+				<p />
+				<p>BACK DOOR. You throw open a door and lunge</p>
+				<p>through it into a twisted metallic nightmare: home.</p>
+				<p>Once per session, you can find an entrance</p>
+				<p>to the Vault no matter where you are in Spire</p>
+				<p>(whether it was there before you started looking</p>
+				<p>remains unclear). Inside, you&#8217;ll find a collection of</p>
+				<p>strange items and peculiar books, many of which</p>
+				<p>relate or come from alternate histories, and some</p>
+				<p>of which tell the truth. Any non-Sage character</p>
+				<p>who enters the Vault should roll Resist+Occult or</p>
+				<p>suffer Mind stress.</p>
+				<p />
+				<p>THE VAULT. You have access to the vast informational</p>
+				<p>resources of the sages. While inside the Vault, whether</p>
+				<p>you accessed it through a Back Door or by normal</p>
+				<p>means, you have access to equipment that will</p>
+				<p>allow you to perform an Investigate check on any</p>
+				<p>subject. It won&#8217;t confer mastery, but it will allow</p>
+				<p>you to perform the check.</p>
+				<p />
+				<p>OBSESSIVE RESEARCHER. You spend every</p>
+				<p>quiet moment filling your brain with knowledge &#8211;</p>
+				<p>knowledge which is often fleeting. At the start of each</p>
+				<p>session, gain a knack of your choosing in any skill</p>
+				<p>or domain, even if you don&#8217;t normally have access</p>
+				<p>to the skill or domain. At the end of the session,</p>
+				<p>you lose that knack. You can&#8217;t have the same knack</p>
+				<p>two sessions in a row; you get bored, and must</p>
+				<p>expand your mind in different ways.</p>
+			</text>
+		</id-00005>
+		<id-00006>
+			<public />
+			<holder name="Vzaretskiy" owner="true" />
+			<name type="string">Glayjia Baylorn</name>
+			<text type="formattedtext">
+				<p>Glagia Baylorn</p>
+				<p />
+				<p>Information broker: +2 Shadow, Investigate. You applied your unique talents for your lord&#8217;s benefit, buying and selling information, secrets and allegiances to further their political schemes. You have a keen eye for information, and are hard to track down.</p>
+				<p />
+				<p>Idol:</p>
+				<p>You are a beautiful artist and revolutionary, and your creations can reshape the world through bleeding-edge, half-understood sorcery.</p>
+				<p>Core Traits</p>
+				<p>RESISTANCES: Silver +1, Mind +1,</p>
+				<p>Reputation +2</p>
+				<p>REFRESH: Someone feels deeply moved when they witness your art.</p>
+				<p>SKILLS: Deceive, Compel</p>
+				<p>DOMAINS: High Society, Occult</p>
+				<p>BONDS</p>
+				<p>&#8226; You have a street-level bond to your</p>
+				<p>adoring fans. Name three of them, and</p>
+				<p>what the group is most excited to see next.</p>
+				<p>- Ponges Kelork</p>
+				<p>- Moy Frowler</p>
+				<p>- Jul Gil</p>
+				<p>- I promised my next performance to be a mix of The Comedy of Melfor Desteria (A Opera performed for the house of Destera 200 years ago. It was the last performance staged before the rise of the High elves.) and The Comedy of Howl-Of-Wind-Before-Battle (The first High elf Opera after the fall.). The point is a tribute to the Drow of old (A hidden tribute) and a critical look at the High elf counsel (Though hidden).</p>
+				<p>&#8226; You have a bond with another PC who</p>
+				<p>you know has feelings for you, even if they</p>
+				<p>wouldn&#8217;t admit it. Describe the moment</p>
+				<p>when you knew for definite.</p>
+				<p>(Ed- Scolexis)</p>
+				<p>EQUIPMENT</p>
+				<p>&#8226; Several sets of flattering clothing</p>
+				<p>&#8226; Tools to create or perform your chosen art</p>
+				<p>&#8226; Small gifts and trinkets from your fans</p>
+				<p>&#8226; A knife (D3, Concealable)</p>
+				<p />
+				<p>Glagius spent her Durance as an information broker. The more she learned, the more she saw how information was used by her master, the more her hate grew. She was determined to be a beacon of hope for her people. But to do so, she would need to blend in with high society. Using some information gathered during her Durance(Zilvice helped) she managed to perform for high society and quickly grew a following. She would often incorporate subtle anti Aelfir propaganda. The Ministry of Our Hidden Mistress caught on and has asked Glagius to help in a more hands-on way. Her first task, to meet with two other initiates in the Red Row district. A place she has only seen momentarily as a child and has it's horrors etched in her mind.</p>
+			</text>
+		</id-00006>
+	</notes>
+	<options>
+		<public />
+		<DDCL-custom type="string">-</DDCL-custom>
+	</options>
+	<partysheet>
+		<public />
+	</partysheet>
+	<settings>
+		<tokenlight>
+			<public />
+			<id-00001>
+				<public />
+				<animspeed type="number">25</animspeed>
+				<animtype type="string">flicker</animtype>
+				<bright type="number">3</bright>
+				<color type="string">FFFFF3E1</color>
+				<dim type="number">9</dim>
+				<dimfalloff type="number">50</dimfalloff>
+				<duration type="number">3600</duration>
+				<falloff type="number">25</falloff>
+				<name type="string">Lamp</name>
+				<tag type="string">lamp</tag>
+			</id-00001>
+			<id-00002>
+				<public />
+				<animspeed type="number">100</animspeed>
+				<animtype type="string">flicker</animtype>
+				<bright type="number">1</bright>
+				<color type="string">FFFFFCC3</color>
+				<dim type="number">2</dim>
+				<dimfalloff type="number">50</dimfalloff>
+				<duration type="number">600</duration>
+				<falloff type="number">25</falloff>
+				<name type="string">Candle</name>
+				<tag type="string">candle</tag>
+			</id-00002>
+			<id-00003>
+				<public />
+				<animspeed type="number">25</animspeed>
+				<animtype type="string">flicker</animtype>
+				<bright type="number">4</bright>
+				<color type="string">FFFFF3E1</color>
+				<dim type="number">8</dim>
+				<dimfalloff type="number">50</dimfalloff>
+				<duration type="number">600</duration>
+				<falloff type="number">25</falloff>
+				<name type="string">Torch</name>
+				<tag type="string">torch</tag>
+			</id-00003>
+			<id-00004>
+				<public />
+				<animspeed type="number">100</animspeed>
+				<bright type="number">6</bright>
+				<color type="string">FFF9FEFF</color>
+				<dim type="number">12</dim>
+				<dimfalloff type="number">50</dimfalloff>
+				<duration type="number">3600</duration>
+				<falloff type="number">25</falloff>
+				<name type="string">Lantern</name>
+				<tag type="string">lantern</tag>
+			</id-00004>
+			<id-00005>
+				<public />
+				<animspeed type="number">100</animspeed>
+				<bright type="number">3</bright>
+				<color type="string">FF000000</color>
+				<dim type="number">3</dim>
+				<dimfalloff type="number">50</dimfalloff>
+				<duration type="number">100</duration>
+				<falloff type="number">25</falloff>
+				<name type="string">Spell - Darkness</name>
+				<tag type="string">darkness</tag>
+			</id-00005>
+			<id-00006>
+				<public />
+				<animspeed type="number">100</animspeed>
+				<bright type="number">4</bright>
+				<color type="string">FFFFF3E1</color>
+				<dim type="number">8</dim>
+				<dimfalloff type="number">50</dimfalloff>
+				<duration type="number">600</duration>
+				<falloff type="number">25</falloff>
+				<name type="string">Spell - Light</name>
+				<tag type="string">light</tag>
+			</id-00006>
+		</tokenlight>
+	</settings>
+</root>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<windowstate version="4.2" dataversion="20220411">
+	<window data="" class="decal_select" pos="767,300,1152,835" />
+	<window data="" class="tokenbag" pos="1949,533,2449,1133" />
+	<window data="" class="portrait_select" pos="1061,351,1451,751" />
+	<window data="" class="characterlist" pos="0,0,40,90" />
+	<window data="" class="makename_tool" pos="784,363,1134,773" />
+	<window data="notes.id-00004" class="note" pos="836,188,1186,954" />
+	<window data="notes.id-00005" class="note" pos="498,461,848,811" />
+	<window data="notes.id-00002" class="note" pos="855,515,1205,865" />
+	<window data="notes.id-00001" class="note" pos="1115,763,1465,1113" />
+	<window data="notes.id-00003" class="note" pos="537,329,887,679" />
+	<window data="notes.id-00006" class="note" pos="915,527,1478,1296" />
+	<window data="notes" class="masterindex" pos="358,305,808,755" />
+	<window data="image" class="masterindex" pos="1016,305,1466,755" />
+	<window data="image.id-00001" class="imagewindow" pos="1942,120,2522,700" />
+	<window data="charsheet.id-00003" class="charsheet" pos="567,42,1092,610" />
+	<window data="charsheet.id-00002" class="charsheet" pos="1193,43,1718,611" />
+	<window data="charsheet.id-00001" class="charsheet" pos="572,372,1097,940" />
+	<window data="image.id-00002" class="imagewindow" pos="900,568,1649,1190" />
+	<window data="npc" class="masterindex" pos="734,343,1184,793" />
+	<window data="mc_investigator" class="masterindex" pos="734,343,1184,793" />
+	<window data="partysheet" class="partysheet_host" pos="574,318,1344,818" />
+	<window data="combattracker" class="combattracker_host" pos="759,318,1159,818" />
+	<window data="battle" class="masterindex" pos="734,343,1184,793" />
+	<window data="charsheet.id-00004" class="charsheet" pos="697,284,1222,852" />
+	<window data="charsheet.id-00002.abilitylist.id-00002" class="ability" pos="641,432,1041,782" />
+	<window data="charsheet.id-00002.abilitylist.id-00001" class="ability" pos="893,688,1293,1038" />
+	<window data="charsheet.id-00003.abilitylist.id-00002" class="ability" pos="993,79,1393,429" />
+	<window data="charsheet.id-00003.abilitylist.id-00003" class="ability" pos="416,718,827,1074" />
+	<window data="charsheet.id-00003.abilitylist.id-00001" class="ability" pos="1151,613,1551,963" />
+	<window data="charsheet.id-00001.abilitylist.id-00002" class="ability" pos="1276,651,1598,1017" />
+	<window data="charsheet.id-00002.abilitylist.id-00003" class="ability" pos="377,729,777,1079" />
+	<window data="charsheet.id-00001.abilitylist.id-00001" class="ability" pos="1168,676,1528,1026" />
+	<window data="charsheet.id-00001.abilitylist.id-00003" class="ability" pos="879,654,1268,1004" />
+	<image data="image.id-00001" class="imagewindow" control="image" view="0,0" zoom="0.0731195658445358" />
+	<image data="image.id-00002" class="imagewindow" control="image" view="234,-643" zoom="1.4812825481839" />
+</windowstate>

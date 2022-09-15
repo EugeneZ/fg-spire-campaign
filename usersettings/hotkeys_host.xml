@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hotkeys version="4.2" dataversion="20220411">
+	<bank number="0">
+		<key number="0">
+			<data>
+				<type>dice</type>
+				<slot number="0">
+					<dice>2d10</dice>
+				</slot>
+			</data>
+		</key>
+	</bank>
+	<bank number="1" />
+	<bank number="2" />
+	<bank number="3" />
+	<bank number="4" />
+	<bank number="5" />
+	<bank number="6" />
+	<bank number="7" />
+</hotkeys>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root version="4.2" dataversion="20220411" release="5">
+	<calendar>
+		<public />
+	</calendar>
+	<combattracker>
+		<public />
+	</combattracker>
+	<currencies>
+		<public />
+	</currencies>
+	<effects>
+		<public />
+	</effects>
+	<languages>
+		<public />
+	</languages>
+	<modifiers>
+		<public />
+	</modifiers>
+	<motd>
+		<public />
+	</motd>
+	<options>
+		<public />
+		<DDCL-custom type="string">-</DDCL-custom>
+	</options>
+	<partysheet>
+		<public />
+	</partysheet>
+	<settings>
+		<tokenlight>
+			<public />
+			<id-00001>
+				<public />
+				<animspeed type="number">25</animspeed>
+				<animtype type="string">flicker</animtype>
+				<bright type="number">3</bright>
+				<color type="string">FFFFF3E1</color>
+				<dim type="number">9</dim>
+				<dimfalloff type="number">50</dimfalloff>
+				<duration type="number">3600</duration>
+				<falloff type="number">25</falloff>
+				<name type="string">Lamp</name>
+				<tag type="string">lamp</tag>
+			</id-00001>
+			<id-00002>
+				<public />
+				<animspeed type="number">100</animspeed>
+				<animtype type="string">flicker</animtype>
+				<bright type="number">1</bright>
+				<color type="string">FFFFFCC3</color>
+				<dim type="number">2</dim>
+				<dimfalloff type="number">50</dimfalloff>
+				<duration type="number">600</duration>
+				<falloff type="number">25</falloff>
+				<name type="string">Candle</name>
+				<tag type="string">candle</tag>
+			</id-00002>
+			<id-00003>
+				<public />
+				<animspeed type="number">25</animspeed>
+				<animtype type="string">flicker</animtype>
+				<bright type="number">4</bright>
+				<color type="string">FFFFF3E1</color>
+				<dim type="number">8</dim>
+				<dimfalloff type="number">50</dimfalloff>
+				<duration type="number">600</duration>
+				<falloff type="number">25</falloff>
+				<name type="string">Torch</name>
+				<tag type="string">torch</tag>
+			</id-00003>
+			<id-00004>
+				<public />
+				<animspeed type="number">100</animspeed>
+				<bright type="number">6</bright>
+				<color type="string">FFF9FEFF</color>
+				<dim type="number">12</dim>
+				<dimfalloff type="number">50</dimfalloff>
+				<duration type="number">3600</duration>
+				<falloff type="number">25</falloff>
+				<name type="string">Lantern</name>
+				<tag type="string">lantern</tag>
+			</id-00004>
+			<id-00005>
+				<public />
+				<animspeed type="number">100</animspeed>
+				<bright type="number">3</bright>
+				<color type="string">FF000000</color>
+				<dim type="number">3</dim>
+				<dimfalloff type="number">50</dimfalloff>
+				<duration type="number">100</duration>
+				<falloff type="number">25</falloff>
+				<name type="string">Spell - Darkness</name>
+				<tag type="string">darkness</tag>
+			</id-00005>
+			<id-00006>
+				<public />
+				<animspeed type="number">100</animspeed>
+				<bright type="number">4</bright>
+				<color type="string">FFFFF3E1</color>
+				<dim type="number">8</dim>
+				<dimfalloff type="number">50</dimfalloff>
+				<duration type="number">600</duration>
+				<falloff type="number">25</falloff>
+				<name type="string">Spell - Light</name>
+				<tag type="string">light</tag>
+			</id-00006>
+		</tokenlight>
+	</settings>
+</root>
