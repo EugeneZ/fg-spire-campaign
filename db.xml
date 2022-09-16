@@ -101,6 +101,12 @@
 			<fallout_reputation type="string">Rumour, Vendetta</fallout_reputation>
 			<inventorylist>
 				<holder name="gaerlan" owner="true" />
+				<id-00001>
+					<holder name="gaerlan" owner="true" />
+					<carried type="number">1</carried>
+					<count type="number">1</count>
+					<name type="string">Signed manuscript</name>
+				</id-00001>
 			</inventorylist>
 			<languagelist>
 				<holder name="gaerlan" owner="true" />
@@ -334,6 +340,7 @@
 			<abilitylist>
 				<holder name="Vzaretskiy" owner="true" />
 				<id-00001>
+					<public />
 					<holder name="Vzaretskiy" owner="true" />
 					<locked type="number">1</locked>
 					<name type="string">LIFE AND SOUL OF THE PARTY</name>
@@ -488,7 +495,7 @@
 			<skill_steal type="number">0</skill_steal>
 			<stress_blood type="number">0</stress_blood>
 			<stress_mind type="number">4</stress_mind>
-			<stress_reputation type="number">0</stress_reputation>
+			<stress_reputation type="number">2</stress_reputation>
 			<stress_shadow type="number">3</stress_shadow>
 			<stress_silver type="number">0</stress_silver>
 			<token type="token">portrait_id-00003_token</token>
