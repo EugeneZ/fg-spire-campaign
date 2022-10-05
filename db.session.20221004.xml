@@ -99,7 +99,7 @@
 			<domain_commerce type="number">0</domain_commerce>
 			<domain_crime type="number">0</domain_crime>
 			<domain_high_society type="number">0</domain_high_society>
-			<domain_low_society type="number">0</domain_low_society>
+			<domain_low_society type="number">1</domain_low_society>
 			<domain_occult type="number">1</domain_occult>
 			<domain_order type="number">0</domain_order>
 			<domain_religion type="number">0</domain_religion>
@@ -119,20 +119,7 @@
 					<count type="number">1</count>
 					<name type="string">Signed manuscript</name>
 				</id-00001>
-				<id-00002>
-					<holder name="gaerlan" owner="true" />
-					<carried type="number">1</carried>
-					<count type="number">1</count>
-					<name type="string">Thermos of Dagger</name>
-				</id-00002>
-				<id-00003>
-					<holder name="gaerlan" owner="true" />
-					<carried type="number">1</carried>
-					<count type="number">1</count>
-					<name type="string">Folding crossbow</name>
-				</id-00003>
 			</inventorylist>
-			<knacks_fight type="string">Non-lethal subdual</knacks_fight>
 			<languagelist>
 				<holder name="gaerlan" owner="true" />
 				<id-00001>
@@ -284,7 +271,6 @@
 			<encumbrance>
 				<holder name="Holythesea" owner="true" />
 			</encumbrance>
-			<fallout_reputation type="string">Reviled Among Aelfir</fallout_reputation>
 			<inventorylist>
 				<holder name="Holythesea" owner="true" />
 				<id-00001>
@@ -354,10 +340,10 @@
 			<skill_resist type="number">1</skill_resist>
 			<skill_sneak type="number">1</skill_sneak>
 			<skill_steal type="number">0</skill_steal>
-			<stress_blood type="number">2</stress_blood>
-			<stress_mind type="number">2</stress_mind>
+			<stress_blood type="number">4</stress_blood>
+			<stress_mind type="number">3</stress_mind>
 			<stress_reputation type="number">0</stress_reputation>
-			<stress_shadow type="number">2</stress_shadow>
+			<stress_shadow type="number">5</stress_shadow>
 			<stress_silver type="number">0</stress_silver>
 			<token type="token">portrait_id-00002_token</token>
 		</id-00002>
@@ -482,7 +468,7 @@
 			<languagelist>
 				<holder name="Vzaretskiy" owner="true" />
 			</languagelist>
-			<name type="string">[Graveyard]Glayjia Baylorn</name>
+			<name type="string">Glayjia Baylorn</name>
 			<refresh type="string">Someone feels deeply moved when they witness your art.</refresh>
 			<resistance_blood_free_slot_1 type="number">0</resistance_blood_free_slot_1>
 			<resistance_blood_free_slot_2 type="number">0</resistance_blood_free_slot_2>
@@ -632,145 +618,6 @@
 			<stress_silver type="number">0</stress_silver>
 			<token type="token">portrait_id-00004_token</token>
 		</id-00004>
-		<id-00005>
-			<holder name="Vzaretskiy" owner="true" />
-			<abilitylist>
-				<holder name="Vzaretskiy" owner="true" />
-				<id-00001>
-					<holder name="Vzaretskiy" owner="true" />
-					<name type="string">SURPRISE INFILTRATION</name>
-					<shortcut type="windowreference">
-						<class>ability</class>
-						<recordname />
-					</shortcut>
-					<text type="formattedtext">
-						<p>Nothing can keep you out. Once per session, insert yourself into a situation where you are not currently present, so long as there&#8217;s some conceivable way you could get in there.</p>
-					</text>
-				</id-00001>
-				<id-00002>
-					<holder name="Vzaretskiy" owner="true" />
-					<name type="string">BOUND BLADE</name>
-					<shortcut type="windowreference">
-						<class>ability</class>
-						<recordname />
-					</shortcut>
-					<text type="formattedtext">
-						<p>You have captured a god and forced it into your blade. As a Bound, you gain a god-knife or god-axe blade when you join the order, and bind a small god inside it with a bloody and dark ritual. This weapon has the Bound tag, and as such you can use your class abilities through it. You can&#8217;t use your abilities through another weapon, but if your Bound weapon is lost or destroyed, you can create a new one with a night-long, exhausting rite held back in Perch.</p>
-					</text>
-				</id-00002>
-				<id-00003>
-					<holder name="Vzaretskiy" owner="true" />
-					<name type="string">THE SECRET OF LUCKY BREAKS</name>
-					<shortcut type="windowreference">
-						<class>ability</class>
-						<recordname />
-					</shortcut>
-					<text type="formattedtext">
-						<p>[Divine]</p>
-						<p>Your gods see to it that you&#8217;re never without small lux uries. +1 Mind, +1 Reputation. Your bottle always has a little bit of liquor left in it, your crumpled cigarette packet always contains three cigarettes, and your box of spireblack matches always con tains one match. (You can&#8217;t use this ability to give out infinite cigarettes and booze to loads of other people in an attempt to make money; the gods will resent the abuse, and cease to aid you.)</p>
-					</text>
-				</id-00003>
-			</abilitylist>
-			<class type="string">Bound</class>
-			<coins>
-				<holder name="Vzaretskiy" owner="true" />
-				<id-00001>
-					<holder name="Vzaretskiy" owner="true" />
-					<amount type="number">0</amount>
-					<name type="string">Polter: Their collection of Moon Pebbles is most important to them. We met while enlisted. I saved his hide more than once.</name>
-				</id-00001>
-				<id-00004>
-					<holder name="Vzaretskiy" owner="true" />
-					<amount type="number">0</amount>
-					<name type="string">Zilvice was lead into a trap while attempting to retrieve a case of Red Dust. Karak was trailing the dealers/murderers when he saw Zilvice about to be slain. He jumped down and destributed justice in the form of his God-Axe.</name>
-				</id-00004>
-			</coins>
-			<domain_academia type="number">0</domain_academia>
-			<domain_commerce type="number">0</domain_commerce>
-			<domain_crime type="number">1</domain_crime>
-			<domain_high_society type="number">0</domain_high_society>
-			<domain_low_society type="number">1</domain_low_society>
-			<domain_occult type="number">0</domain_occult>
-			<domain_order type="number">0</domain_order>
-			<domain_religion type="number">0</domain_religion>
-			<domain_technology type="number">0</domain_technology>
-			<durance type="string">Enlisted</durance>
-			<inventorylist>
-				<holder name="Vzaretskiy" owner="true" />
-				<id-00001>
-					<holder name="Vzaretskiy" owner="true" />
-					<carried type="number">1</carried>
-					<count type="number">1</count>
-					<name type="string">Light leather armour (Armour 2)</name>
-				</id-00001>
-				<id-00002>
-					<holder name="Vzaretskiy" owner="true" />
-					<carried type="number">1</carried>
-					<count type="number">1</count>
-					<name type="string">Ceremonial red binding ropes and mask</name>
-				</id-00002>
-				<id-00003>
-					<holder name="Vzaretskiy" owner="true" />
-					<carried type="number">1</carried>
-					<count type="number">1</count>
-					<name type="string">Sturdy leather gloves</name>
-				</id-00003>
-				<id-00004>
-					<holder name="Vzaretskiy" owner="true" />
-					<carried type="number">1</carried>
-					<count type="number">1</count>
-					<name type="string">Climbing gear and Ropes</name>
-				</id-00004>
-				<id-00005>
-					<holder name="Vzaretskiy" owner="true" />
-					<carried type="number">1</carried>
-					<count type="number">1</count>
-					<name type="string">God-Axe (D6. Bound)</name>
-				</id-00005>
-			</inventorylist>
-			<name type="string">Karak</name>
-			<refresh type="string">Bring a criminal to justice.</refresh>
-			<resistance_blood_free_slot_1 type="number">1</resistance_blood_free_slot_1>
-			<resistance_blood_free_slot_2 type="number">1</resistance_blood_free_slot_2>
-			<resistance_blood_free_slot_3 type="number">1</resistance_blood_free_slot_3>
-			<resistance_blood_free_slot_4 type="number">0</resistance_blood_free_slot_4>
-			<resistance_blood_free_slot_5 type="number">0</resistance_blood_free_slot_5>
-			<resistance_mind_free_slot_1 type="number">1</resistance_mind_free_slot_1>
-			<resistance_mind_free_slot_2 type="number">0</resistance_mind_free_slot_2>
-			<resistance_mind_free_slot_3 type="number">0</resistance_mind_free_slot_3>
-			<resistance_mind_free_slot_4 type="number">0</resistance_mind_free_slot_4>
-			<resistance_mind_free_slot_5 type="number">0</resistance_mind_free_slot_5>
-			<resistance_reputation_free_slot_1 type="number">1</resistance_reputation_free_slot_1>
-			<resistance_reputation_free_slot_2 type="number">0</resistance_reputation_free_slot_2>
-			<resistance_reputation_free_slot_3 type="number">0</resistance_reputation_free_slot_3>
-			<resistance_reputation_free_slot_4 type="number">0</resistance_reputation_free_slot_4>
-			<resistance_reputation_free_slot_5 type="number">0</resistance_reputation_free_slot_5>
-			<resistance_shadow_free_slot_1 type="number">1</resistance_shadow_free_slot_1>
-			<resistance_shadow_free_slot_2 type="number">1</resistance_shadow_free_slot_2>
-			<resistance_shadow_free_slot_3 type="number">0</resistance_shadow_free_slot_3>
-			<resistance_shadow_free_slot_4 type="number">0</resistance_shadow_free_slot_4>
-			<resistance_shadow_free_slot_5 type="number">0</resistance_shadow_free_slot_5>
-			<resistance_silver_free_slot_1 type="number">0</resistance_silver_free_slot_1>
-			<resistance_silver_free_slot_2 type="number">0</resistance_silver_free_slot_2>
-			<resistance_silver_free_slot_3 type="number">0</resistance_silver_free_slot_3>
-			<resistance_silver_free_slot_4 type="number">0</resistance_silver_free_slot_4>
-			<resistance_silver_free_slot_5 type="number">0</resistance_silver_free_slot_5>
-			<skill_compel type="number">0</skill_compel>
-			<skill_deceive type="number">0</skill_deceive>
-			<skill_fight type="number">1</skill_fight>
-			<skill_fix type="number">0</skill_fix>
-			<skill_investigate type="number">0</skill_investigate>
-			<skill_pursue type="number">1</skill_pursue>
-			<skill_resist type="number">0</skill_resist>
-			<skill_sneak type="number">1</skill_sneak>
-			<skill_steal type="number">0</skill_steal>
-			<stress_blood type="number">0</stress_blood>
-			<stress_mind type="number">2</stress_mind>
-			<stress_reputation type="number">0</stress_reputation>
-			<stress_shadow type="number">0</stress_shadow>
-			<stress_silver type="number">0</stress_silver>
-			<token type="token">portrait_id-00005_token</token>
-		</id-00005>
 	</charsheet>
 	<chat>
 		<public />
