@@ -2,8 +2,8 @@
 <extensionstate version="4.2" dataversion="20220411">
 	<extension name="ColorfulLanguage" />
 	<extension name="Name Maker" />
+	<extension name="Chat Aesthetics Configurator" />
 	<extension name="Theme Simple Dark Unity" />
 	<extension name="PlayerAgency" />
 	<extension name="NPC_Portraits" />
-	<extension name="Chat Aesthetics Configurator" />
 </extensionstate>

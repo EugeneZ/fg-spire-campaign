@@ -78,29 +78,6 @@
 						<p>expand your mind in different ways.</p>
 					</text>
 				</id-00004>
-				<id-00005>
-					<public />
-					<holder name="gaerlan" owner="true" />
-					<name type="string">Find Connection</name>
-					<shortcut type="windowreference">
-						<class>ability</class>
-						<recordname />
-					</shortcut>
-					<text type="formattedtext">
-						<p>[Occult] You use the unique capabilities of the Vermissian Vault to unlock secrets about a target. Once per session, declare that two NPCs are connected somehow &#8211; ask the GM in what way.</p>
-					</text>
-				</id-00005>
-				<id-00006>
-					<holder name="gaerlan" owner="true" />
-					<name type="string">That Didn't Happen</name>
-					<shortcut type="windowreference">
-						<class>ability</class>
-						<recordname />
-					</shortcut>
-					<text type="formattedtext">
-						<p>[Occult] Reality is malleable, in the right hands: yours. Gain the Fix skill. Once per session, re-roll all the dice in your pool, as you reveal the events that just happened to be false. You can try this trick a second time, but you take D6 stress to Mind when you do so.</p>
-					</text>
-				</id-00006>
 			</abilitylist>
 			<blood type="number">0</blood>
 			<class type="string">Vermissian Sage</class>
@@ -146,7 +123,7 @@
 					<holder name="gaerlan" owner="true" />
 					<carried type="number">1</carried>
 					<count type="number">1</count>
-					<name type="string">Thermos of Dagger (a couple of grams, not much really...)</name>
+					<name type="string">Thermos of Dagger</name>
 				</id-00002>
 				<id-00003>
 					<holder name="gaerlan" owner="true" />
@@ -192,14 +169,14 @@
 			<skill_compel type="number">1</skill_compel>
 			<skill_deceive type="number">0</skill_deceive>
 			<skill_fight type="number">0</skill_fight>
-			<skill_fix type="number">1</skill_fix>
+			<skill_fix type="number">0</skill_fix>
 			<skill_investigate type="number">1</skill_investigate>
 			<skill_pursue type="number">0</skill_pursue>
 			<skill_resist type="number">0</skill_resist>
 			<skill_sneak type="number">0</skill_sneak>
 			<skill_steal type="number">0</skill_steal>
 			<stress_blood type="number">2</stress_blood>
-			<stress_mind type="number">6</stress_mind>
+			<stress_mind type="number">5</stress_mind>
 			<stress_reputation type="number">0</stress_reputation>
 			<stress_shadow type="number">2</stress_shadow>
 			<stress_silver type="number">0</stress_silver>
@@ -267,41 +244,6 @@
 						<p>If you attack an aelfir while in this state, your attacks gain the Brutal tag.</p>
 					</text>
 				</id-00004>
-				<id-00005>
-					<holder name="Holythesea" owner="true" />
-					<locked type="number">1</locked>
-					<name type="string">CITIZEN'S MASK</name>
-					<shortcut type="windowreference">
-						<class>ability</class>
-						<recordname />
-					</shortcut>
-					<text type="formattedtext">
-						<p>When you need to be, you become</p>
-						<p>one of the crowd. Gain the Sneak skill. When you</p>
-						<p>wear your Citizen&#8217;s Mask, you roll with mastery</p>
-						<p>when you&#8217;re attempting to pass yourself off as</p>
-						<p>someone unimportant or beneath the attention of</p>
-						<p>your target.</p>
-					</text>
-				</id-00005>
-				<id-00006>
-					<holder name="Holythesea" owner="true" />
-					<locked type="number">1</locked>
-					<name type="string">ONE OF THE STAFF</name>
-					<shortcut type="windowreference">
-						<class>ability</class>
-						<recordname />
-					</shortcut>
-					<text type="formattedtext">
-						<p>You&#8217;d be surprised how much</p>
-						<p>chambermaids see. Gain the Deceive skill. Once</p>
-						<p>per session, you can seamlessly blend into the</p>
-						<p>household staff or employees of an organisation or</p>
-						<p>group and keep your ears open for information.</p>
-						<p>For every hour you spend performing busywork</p>
-						<p>(up to a maximum of 3), ask the GM one question about the organisation that they must answer honestly.</p>
-					</text>
-				</id-00006>
 			</abilitylist>
 			<background type="string">Zilvice spent his durance in service to Qinrel Rimdor. Where he would regularly ‘visit’ other high elf houses. Skulking in the shadows to overhear thought to be private conversations and relaying this back to Master Rimdor gained him favor with the master and the occasional freedoms. Never really accepting High Elf rule, he met a kindred spirit in Glaygia, who made mention of The Ministry after their durances brought them together. He has been spending time in Red Row to get away from his previous master and to truly join The Ministry’s fight to take back Spire.</background>
 			<blood type="number">0</blood>
@@ -412,7 +354,7 @@
 			<skill_resist type="number">1</skill_resist>
 			<skill_sneak type="number">1</skill_sneak>
 			<skill_steal type="number">0</skill_steal>
-			<stress_blood type="number">5</stress_blood>
+			<stress_blood type="number">2</stress_blood>
 			<stress_mind type="number">2</stress_mind>
 			<stress_reputation type="number">0</stress_reputation>
 			<stress_shadow type="number">2</stress_shadow>
@@ -728,36 +670,7 @@
 						<p>Your gods see to it that you&#8217;re never without small lux uries. +1 Mind, +1 Reputation. Your bottle always has a little bit of liquor left in it, your crumpled cigarette packet always contains three cigarettes, and your box of spireblack matches always con tains one match. (You can&#8217;t use this ability to give out infinite cigarettes and booze to loads of other people in an attempt to make money; the gods will resent the abuse, and cease to aid you.)</p>
 					</text>
 				</id-00003>
-				<id-00004>
-					<public />
-					<holder name="Vzaretskiy" owner="true" />
-					<name type="string">THE SECRET OF LOOSE TONGUES</name>
-					<shortcut type="windowreference">
-						<class>ability</class>
-						<recordname />
-					</shortcut>
-					<text type="formattedtext">
-						<p>[Divine]</p>
-						<p>Your bottle enchants the liquor inside it, convincing those who drink to share their secrets.</p>
-						<p>Gain the Compel skill.</p>
-						<p>When someone takes a drink from your bottle, they will feel compelled to tell you about a crime they were involved in, or adjacent to. (You cannot turn this off.)</p>
-					</text>
-				</id-00004>
-				<id-00005>
-					<holder name="Vzaretskiy" owner="true" />
-					<name type="string">THE SECRET OF THE CROWD</name>
-					<shortcut type="windowreference">
-						<class>ability</class>
-						<recordname />
-					</shortcut>
-					<text type="formattedtext">
-						<p>[Divine]</p>
-						<p>You can hide in plain sight, so long as there are others around. +1 Shadow.</p>
-						<p>When you wear your mask and stand in a crowd, you will blend into the background (though not become invisible) unless you do something out of the ordinary to at tract attention.</p>
-					</text>
-				</id-00005>
 			</abilitylist>
-			<background type="string">Abilities Used: Session/Ability\n2a:</background>
 			<class type="string">Bound</class>
 			<coins>
 				<holder name="Vzaretskiy" owner="true" />
@@ -834,7 +747,7 @@
 			<resistance_reputation_free_slot_5 type="number">0</resistance_reputation_free_slot_5>
 			<resistance_shadow_free_slot_1 type="number">1</resistance_shadow_free_slot_1>
 			<resistance_shadow_free_slot_2 type="number">1</resistance_shadow_free_slot_2>
-			<resistance_shadow_free_slot_3 type="number">1</resistance_shadow_free_slot_3>
+			<resistance_shadow_free_slot_3 type="number">0</resistance_shadow_free_slot_3>
 			<resistance_shadow_free_slot_4 type="number">0</resistance_shadow_free_slot_4>
 			<resistance_shadow_free_slot_5 type="number">0</resistance_shadow_free_slot_5>
 			<resistance_silver_free_slot_1 type="number">0</resistance_silver_free_slot_1>
@@ -842,7 +755,7 @@
 			<resistance_silver_free_slot_3 type="number">0</resistance_silver_free_slot_3>
 			<resistance_silver_free_slot_4 type="number">0</resistance_silver_free_slot_4>
 			<resistance_silver_free_slot_5 type="number">0</resistance_silver_free_slot_5>
-			<skill_compel type="number">1</skill_compel>
+			<skill_compel type="number">0</skill_compel>
 			<skill_deceive type="number">0</skill_deceive>
 			<skill_fight type="number">1</skill_fight>
 			<skill_fix type="number">0</skill_fix>
@@ -855,7 +768,7 @@
 			<stress_mind type="number">2</stress_mind>
 			<stress_reputation type="number">0</stress_reputation>
 			<stress_shadow type="number">0</stress_shadow>
-			<stress_silver type="number">1</stress_silver>
+			<stress_silver type="number">0</stress_silver>
 			<token type="token">portrait_id-00005_token</token>
 		</id-00005>
 	</charsheet>

@@ -1,6 +1,6 @@
 {
 	["OptREVL"] = "on",
-	["OptCHATICONTHEME"] = "square",
+	["OptDDCL-custom"] = "",
 	["windowstate"] = {
 		["tokenbag"] = {
 			["lastfilter"] = "all",
@@ -15,9 +15,9 @@
 		[3] = "library",
 		[4] = "player",
 	},
-	["OptMANUALROLL"] = "off",
-	["OptDDCL-custom"] = "",
 	["OptSHPW"] = "on",
+	["OptCHATICONTHEME"] = "square",
+	["OptMANUALROLL"] = "off",
 	["setup"] = true,
 	["OptPSIN"] = "on",
 	["OptHRDD"] = "",
