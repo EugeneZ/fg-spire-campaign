@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<windowstate version="4.2" dataversion="20220411">
+<windowstate version="4.3" dataversion="20220901">
 	<window data="" class="decal_select" pos="767,300,1152,835" />
 	<window data="" class="tokenbag" pos="1150,416,1650,1016" />
 	<window data="" class="portrait_select" pos="1061,351,1451,751" />
-	<window data="" class="characterlist" pos="0,0,40,90" />
+	<window data="" class="characterlist" pos="0,0,271,90" />
 	<window data="" class="makename_tool" pos="784,363,1134,773" />
 	<window data="" class="library" pos="609,343,1309,793" />
+	<window data="" class="pointerselection" pos="794,490,1124,645" />
 	<window data="notes.id-00004" class="note" pos="836,188,1186,954" />
 	<window data="notes.id-00005" class="note" pos="498,461,848,811" />
 	<window data="notes.id-00002" class="note" pos="855,515,1205,865" />
@@ -36,7 +37,7 @@
 	<window data="charsheet.id-00001.abilitylist.id-00003" class="ability" pos="879,654,1268,1004" />
 	<window data="encounter" class="masterindex" pos="1222,537,1672,987" />
 	<window data="charsheet.id-00001.abilitylist.id-00004" class="ability" pos="759,393,1159,739" />
-	<window data="charsheet.id-00005" class="charsheet" pos="1155,-9,1680,559" />
+	<window data="charsheet.id-00005" class="charsheet" pos="898,119,1423,687" />
 	<window data="charsheet.id-00002.abilitylist.id-00004" class="ability" pos="759,393,1159,743" />
 	<window data="charsheet.id-00001.abilitylist.id-00006" class="ability" pos="759,393,1159,743" />
 	<window data="charsheet.id-00005.abilitylist.id-00004" class="ability" pos="1228,620,1612,970" />
@@ -44,6 +45,7 @@
 	<window data="charsheet.id-00005.abilitylist.id-00003" class="ability" pos="569,281,969,631" />
 	<window data="charsheet.id-00005.abilitylist.id-00002" class="ability" pos="569,624,969,974" />
 	<window data="charsheet.id-00005.abilitylist.id-00005" class="ability" pos="1114,673,1514,1023" />
+	<window data="item" class="masterindex" pos="734,343,1184,793" />
 	<image data="image.id-00001" class="imagewindow" control="image" view="0,0" zoom="0.0731195658445358" />
 	<image data="image.id-00002" class="imagewindow" control="image" view="234,-643" zoom="1.4812825481839" />
 </windowstate>

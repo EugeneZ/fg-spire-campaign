@@ -12,8 +12,8 @@
 	["sidebarexpand"] = {
 		[1] = "tool",
 		[2] = "campaign",
-		[3] = "library",
 		[4] = "player",
+		[3] = "library",
 	},
 	["OptSHPW"] = "on",
 	["OptCHATICONTHEME"] = "square",
