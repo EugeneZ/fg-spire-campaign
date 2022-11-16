@@ -1,6 +1,6 @@
 {
 	["OptREVL"] = "on",
-	["OptDDCL-custom"] = "",
+	["OptCHATICONTHEME"] = "square",
 	["windowstate"] = {
 		["tokenbag"] = {
 			["lastfilter"] = "all",
@@ -8,16 +8,16 @@
 	},
 	["OptCHATFONTCOLORS"] = "dark",
 	["sidebarversion"] = 2,
-	["sidebarvisibility"] = 0,
+	["sidebarvisibility"] = 1,
 	["sidebarexpand"] = {
 		[1] = "tool",
 		[2] = "campaign",
-		[4] = "player",
 		[3] = "library",
+		[4] = "player",
 	},
-	["OptSHPW"] = "on",
-	["OptCHATICONTHEME"] = "square",
 	["OptMANUALROLL"] = "off",
+	["OptDDCL-custom"] = "",
+	["OptSHPW"] = "on",
 	["setup"] = true,
 	["OptPSIN"] = "on",
 	["OptHRDD"] = "",
