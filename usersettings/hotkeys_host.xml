@@ -6,6 +6,14 @@
 				<type>dice</type>
 				<slot number="0">
 					<dice>2d10</dice>
+					<diedata>
+						<type>d10</type>
+						<sets />
+					</diedata>
+					<diedata>
+						<type>d10</type>
+						<sets />
+					</diedata>
 				</slot>
 			</data>
 		</key>

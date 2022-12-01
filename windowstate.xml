@@ -48,6 +48,7 @@
 	<window data="item" class="masterindex" pos="734,343,1184,793" />
 	<window data="charsheet.id-00004.abilitylist.id-00002" class="ability" pos="1368,2,1596,235" />
 	<window data="charsheet.id-00002.abilitylist.id-00006" class="ability" pos="397,538,797,888" />
+	<window data="tables" class="masterindex" pos="734,343,1184,793" />
 	<image data="image.id-00001" class="imagewindow" control="image" view="0,0" zoom="0.0731195658445358" />
 	<image data="image.id-00002" class="imagewindow" control="image" view="-107,-472" zoom="1.41537424699978" />
 </windowstate>

@@ -413,7 +413,7 @@
 			<skill_resist type="number">1</skill_resist>
 			<skill_sneak type="number">1</skill_sneak>
 			<skill_steal type="number">0</skill_steal>
-			<stress_blood type="number">0</stress_blood>
+			<stress_blood type="number">5</stress_blood>
 			<stress_mind type="number">2</stress_mind>
 			<stress_reputation type="number">0</stress_reputation>
 			<stress_shadow type="number">2</stress_shadow>
@@ -590,7 +590,6 @@
 			<abilitylist>
 				<holder name="gaerlan" owner="true" />
 				<id-00001>
-					<public />
 					<holder name="gaerlan" owner="true" />
 					<locked type="number">1</locked>
 					<name type="string">Martyr</name>
@@ -617,41 +616,26 @@
 					</text>
 				</id-00002>
 				<id-00003>
-					<public />
 					<holder name="gaerlan" owner="true" />
-					<locked type="number">0</locked>
+					<locked type="number">1</locked>
 					<name type="string">Canticle of Remaking</name>
-					<shortcut type="windowreference">
-						<class>ability</class>
-						<recordname />
-					</shortcut>
 					<text type="formattedtext">
 						<p>[Occult] Intoning ancient psalms to forgotten powers, you bind your wounds with strands of ethereal web. +1 Blood. Roll Fix+Occult to cast this spell. On a success, remove D6 stress from Blood on yourself, or D3 stress from Blood on another character.</p>
 					</text>
 				</id-00003>
 				<id-00004>
-					<public />
 					<holder name="gaerlan" owner="true" />
 					<locked type="number">1</locked>
 					<name type="string">Blessing of Ishkrah</name>
-					<shortcut type="windowreference">
-						<class>ability</class>
-						<recordname />
-					</shortcut>
 					<text type="formattedtext">
 						<p>[Occult] You weave a spell of protection over your allies, and inky spiders crawl across their skin. Gain the Academia domain.</p>
 						<p>Roll Fix+Occult to cast this spell. On a success, your allies are under the protection of Ishkrah: the first time they suffer stress to Blood in combat, the enemy that caused the stress suffers D3 stress from arachnid nightmares assaulting their senses.</p>
 					</text>
 				</id-00004>
 				<id-00005>
-					<public />
 					<holder name="gaerlan" owner="true" />
 					<locked type="number">1</locked>
 					<name type="string">Eyes of Ishkrah</name>
-					<shortcut type="windowreference">
-						<class>ability</class>
-						<recordname />
-					</shortcut>
 					<text type="formattedtext">
 						<p>[Occult] You grow additional eyes with which you can sense the threads of magic. Gain the Investigate skill.</p>
 						<p>Roll Investigate+Occult to cast. On a success, you see all forms of occult magic in the surrounding area as shimmering webs of fate (including those around invisible creatures, or people observing you remotely) until the end of the current situation. You can follow these threads to the point where the spell was cast.</p>
@@ -670,13 +654,8 @@
 				<id-00002>
 					<holder name="gaerlan" owner="true" />
 					<amount type="number">0</amount>
-					<name type="string">Sister Britta'xant</name>
+					<name type="string">Sister Melith</name>
 				</id-00002>
-				<id-00003>
-					<holder name="gaerlan" owner="true" />
-					<amount type="number">0</amount>
-					<name type="string">Karak</name>
-				</id-00003>
 			</coins>
 			<domain_academia type="number">1</domain_academia>
 			<domain_commerce type="number">0</domain_commerce>
@@ -721,7 +700,7 @@
 			<resistance_reputation_free_slot_1 type="number">0</resistance_reputation_free_slot_1>
 			<resistance_reputation_free_slot_2 type="number">0</resistance_reputation_free_slot_2>
 			<resistance_reputation_free_slot_3 type="number">0</resistance_reputation_free_slot_3>
-			<resistance_reputation_free_slot_4 type="number">1</resistance_reputation_free_slot_4>
+			<resistance_reputation_free_slot_4 type="number">0</resistance_reputation_free_slot_4>
 			<resistance_reputation_free_slot_5 type="number">1</resistance_reputation_free_slot_5>
 			<resistance_shadow_free_slot_1 type="number">0</resistance_shadow_free_slot_1>
 			<resistance_shadow_free_slot_2 type="number">0</resistance_shadow_free_slot_2>
@@ -742,7 +721,7 @@
 			<skill_resist type="number">0</skill_resist>
 			<skill_sneak type="number">0</skill_sneak>
 			<skill_steal type="number">0</skill_steal>
-			<stress_blood type="number">4</stress_blood>
+			<stress_blood type="number">0</stress_blood>
 			<stress_mind type="number">0</stress_mind>
 			<stress_reputation type="number">3</stress_reputation>
 			<stress_shadow type="number">0</stress_shadow>
@@ -815,19 +794,6 @@
 						<p>When you wear your mask and stand in a crowd, you will blend into the background (though not become invisible) unless you do something out of the ordinary to at tract attention.</p>
 					</text>
 				</id-00005>
-				<id-00006>
-					<holder name="Vzaretskiy" owner="true" />
-					<name type="string">THE SAINT OF BLOOD</name>
-					<shortcut type="windowreference">
-						<class>ability</class>
-						<recordname />
-					</shortcut>
-					<text type="formattedtext">
-						<p>[Divine]</p>
-						<p>You sacrifice others to the god hidden in your blade. Your bound weapon can drink the blood of others and fill you with vigour.</p>
-						<p>Once per situation, when you hit with your weapon, remove D6 stress from Blood.</p>
-					</text>
-				</id-00006>
 			</abilitylist>
 			<background type="string">Abilities Used: Session/Ability\n2a:</background>
 			<class type="string">Bound</class>
@@ -893,7 +859,7 @@
 			<resistance_blood_free_slot_1 type="number">1</resistance_blood_free_slot_1>
 			<resistance_blood_free_slot_2 type="number">1</resistance_blood_free_slot_2>
 			<resistance_blood_free_slot_3 type="number">1</resistance_blood_free_slot_3>
-			<resistance_blood_free_slot_4 type="number">1</resistance_blood_free_slot_4>
+			<resistance_blood_free_slot_4 type="number">0</resistance_blood_free_slot_4>
 			<resistance_blood_free_slot_5 type="number">0</resistance_blood_free_slot_5>
 			<resistance_mind_free_slot_1 type="number">1</resistance_mind_free_slot_1>
 			<resistance_mind_free_slot_2 type="number">0</resistance_mind_free_slot_2>
@@ -924,11 +890,11 @@
 			<skill_resist type="number">0</skill_resist>
 			<skill_sneak type="number">1</skill_sneak>
 			<skill_steal type="number">0</skill_steal>
-			<stress_blood type="number">2</stress_blood>
+			<stress_blood type="number">4</stress_blood>
 			<stress_mind type="number">2</stress_mind>
-			<stress_reputation type="number">1</stress_reputation>
+			<stress_reputation type="number">3</stress_reputation>
 			<stress_shadow type="number">0</stress_shadow>
-			<stress_silver type="number">0</stress_silver>
+			<stress_silver type="number">1</stress_silver>
 			<token type="token">portrait_id-00005_token</token>
 		</id-00005>
 	</charsheet>
@@ -1005,7 +971,7 @@
 							<fowenabled />
 							<visibility>mask</visibility>
 						</token>
-						<matrix>0.1999969,0,0,0,0,0.1999512,0,0,0,0,1,0,-75,-550,0,1</matrix>
+						<matrix>0.1999969,0,0,0,0,0.1999512,0,0,0,0,1,0,50,-875,0,1</matrix>
 					</layer>
 				</layers>
 			</image>
@@ -1296,5 +1262,4 @@
 			</id-00006>
 		</tokenlight>
 	</settings>
-	<tables />
 </root>
