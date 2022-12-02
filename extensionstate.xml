@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <extensionstate version="4.3" dataversion="20220901">
 	<extension name="ColorfulLanguage" />
-	<extension name="Chat Aesthetics Configurator" />
-	<extension name="NPC_Portraits" />
 	<extension name="Name Maker" />
-	<extension name="PlayerAgency" />
 	<extension name="Theme Simple Dark Unity" />
+	<extension name="PlayerAgency" />
+	<extension name="NPC_Portraits" />
+	<extension name="Chat Aesthetics Configurator" />
 </extensionstate>

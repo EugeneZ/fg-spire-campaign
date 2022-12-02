@@ -12,8 +12,8 @@
 	["sidebarexpand"] = {
 		[1] = "campaign",
 		[2] = "library",
-		[4] = "tool",
 		[3] = "player",
+		[4] = "tool",
 	},
 	["OptMANUALROLL"] = "off",
 	["OptDDCL-custom"] = "",
