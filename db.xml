@@ -1193,7 +1193,9 @@
 	<npc />
 	<options>
 		<public />
-		<CHATFONTCOLORS type="string">dark</CHATFONTCOLORS>
+		<CHATFONTCOLORS type="string">off</CHATFONTCOLORS>
+		<CHATGMICON type="string">default</CHATGMICON>
+		<CHATGMICONCOLOR type="string">red</CHATGMICONCOLOR>
 		<CHATICONTHEME type="string">square</CHATICONTHEME>
 		<DDCL-custom type="string">-</DDCL-custom>
 		<PSIN type="string">on</PSIN>
