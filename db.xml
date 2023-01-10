@@ -674,6 +674,7 @@
 					</text>
 				</id-00005>
 				<id-00006>
+					<public />
 					<holder name="gaerlan" owner="true" />
 					<locked type="number">1</locked>
 					<name type="string">Weave the Web</name>
@@ -767,7 +768,7 @@
 			<skill_sneak type="number">0</skill_sneak>
 			<skill_steal type="number">0</skill_steal>
 			<stress_blood type="number">4</stress_blood>
-			<stress_mind type="number">0</stress_mind>
+			<stress_mind type="number">1</stress_mind>
 			<stress_reputation type="number">3</stress_reputation>
 			<stress_shadow type="number">0</stress_shadow>
 			<stress_silver type="number">0</stress_silver>
@@ -853,7 +854,7 @@
 					</text>
 				</id-00006>
 			</abilitylist>
-			<background type="string">Abilities Used: Session/Ability\n2a:\n\nBroken Leg Status.</background>
+			<background type="string">Abilities Used: Session/Ability\n2a:</background>
 			<class type="string">Bound</class>
 			<coins>
 				<holder name="Vzaretskiy" owner="true" />
@@ -878,6 +879,7 @@
 			<domain_religion type="number">0</domain_religion>
 			<domain_technology type="number">0</domain_technology>
 			<durance type="string">Enlisted</durance>
+			<fallout_blood type="string">Broken Leg</fallout_blood>
 			<inventorylist>
 				<holder name="Vzaretskiy" owner="true" />
 				<id-00001>
@@ -911,7 +913,7 @@
 					<name type="string">God-Axe (D6. Bound)</name>
 				</id-00005>
 			</inventorylist>
-			<name type="string">Karak</name>
+			<name type="string">Karak(Broken Leg)</name>
 			<notes type="string">Sulphur: Pitch-black runoff from demonic incur sions, rendered down into crystals that are smoked \nin glass pipes. Produces a monumental rush and \nskews the morality of the user, so that performing \nunpleasant or cruel acts feels better and better the \nmore you take. Usually tremendously expensive, \nthe appearance of cheap sulphur is a sign of in Spire demon-summoning – which is terrible news \nfor everyone.\nAlternately, it can be ground to a powder and injected, though this is typically the high-class way to consume it.</notes>
 			<refresh type="string">Bring a criminal to justice.</refresh>
 			<resistance_blood_free_slot_1 type="number">1</resistance_blood_free_slot_1>
@@ -955,6 +957,163 @@
 			<stress_silver type="number">0</stress_silver>
 			<token type="token">portrait_id-00005_token</token>
 		</id-00005>
+		<id-00006>
+			<holder name="Vzaretskiy" owner="true" />
+			<abilitylist>
+				<holder name="Vzaretskiy" owner="true" />
+				<id-00001>
+					<holder name="Vzaretskiy" owner="true" />
+					<locked type="number">1</locked>
+					<name type="string">HYENA</name>
+					<text type="formattedtext">
+						<p>HYENA. You have a companion hyena who obeys your commands. At character creation, pick two com mands that your hyena understands. At the start of your turn, choose one command to give to your hyena from the list that it understands so long as it can hear you speak:</p>
+						<p>SIC &#8216;EM: When you launch a surprise melee attack on a target, your attacks gain the Brutal tag.</p>
+						<p>SCOUT: When you attack at range from a position of hiding, your attacks gain the Brutal tag.</p>
+						<p>GROWL: When you intimidate or drive away some one, do so with mastery.</p>
+						<p>GUARD: When you take stress to Blood, take 1 less stress than the result rolled to a minimum of 1.</p>
+						<p>FETCH: When you hunt down a target that you can see and hear, do so with mastery.</p>
+						<p>SCENT: When you sniff around a scene for clues, do so with mastery.</p>
+					</text>
+				</id-00001>
+				<id-00002>
+					<holder name="Vzaretskiy" owner="true" />
+					<locked type="number">1</locked>
+					<name type="string">LAY OF THE LANDS</name>
+					<text type="formattedtext">
+						<p>LAY OF THE LAND: You are a trained hunter, and others would do well to heed your words. When you enter a dangerous situation, you can name up to three features or opportunities that your allies can take advantage of. The first time you or an ally uses an opportunity, they roll with mastery (for ex ample: cover with a good view of the battlefield, an exit, a badly-guarded door, a stack of barrels, etc).</p>
+					</text>
+				</id-00002>
+				<id-00003>
+					<holder name="Vzaretskiy" owner="true" />
+					<locked type="number">1</locked>
+					<name type="string">DEAD FLESH</name>
+					<text type="formattedtext">
+						<p>DEAD FLESH. [Divine] You are well-liked amongst the slums of New Heaven, as you are able to make rotting food edible once more. +2 Reputation. You can call upon Charnel to bless rotting or spoiled food, casting the decay out of it, and making it safe to consume, as a five-minute ritual.</p>
+					</text>
+				</id-00003>
+				<id-00004>
+					<holder name="Vzaretskiy" owner="true" />
+					<locked type="number">1</locked>
+					<name type="string">CACKLE</name>
+					<text type="formattedtext">
+						<p>CACKLE. [Divine] You are a terror of New Heaven, and your enemies quake at your approach. +1 Reputation. Mark D3 stress to Mind or Body to unleash a nightmarish cackle in concert with your hyena that strikes fear into the hearts of your enemies (and anyone else within earshot). For the next minute or so, if your enemies have a difficulty rating, it is one lower.</p>
+					</text>
+				</id-00004>
+				<id-00005>
+					<holder name="Vzaretskiy" owner="true" />
+					<locked type="number">1</locked>
+					<name type="string">NEW TRICKS(Need two more commands)</name>
+					<text type="formattedtext">
+						<p>NEW TRICKS. Your hyena is unusually well-trained. Gain the Compel skill. Choose two more commands that your hyena understands.&#13;&#13;</p>
+					</text>
+				</id-00005>
+				<id-00006>
+					<holder name="Vzaretskiy" owner="true" />
+					<locked type="number">1</locked>
+					<name type="string">ALPHA</name>
+					<text type="formattedtext">
+						<p>ALPHA. You hold great power over your sacred beast. +1 Reputation. At the start of your turn, choose two commands for your hyena to obey.</p>
+					</text>
+				</id-00006>
+			</abilitylist>
+			<class type="string">Carrion-Priest</class>
+			<coins>
+				<holder name="Vzaretskiy" owner="true" />
+				<id-00001>
+					<holder name="Vzaretskiy" owner="true" />
+					<amount type="number">1</amount>
+					<name type="string">(P.37) Wark- Cultivates Hyena's to make the fastest and strongest.</name>
+				</id-00001>
+				<id-00002>
+					<holder name="Vzaretskiy" owner="true" />
+					<amount type="number">1</amount>
+					<name type="string">Cric- A man with an obsession with recording all deaths/missing persons.</name>
+				</id-00002>
+				<id-00003>
+					<holder name="Vzaretskiy" owner="true" />
+					<amount type="number">1</amount>
+					<name type="string">Porrel- Provides a service to transport bodies to the top of the spire.</name>
+				</id-00003>
+				<id-00004>
+					<holder name="Vzaretskiy" owner="true" />
+					<amount type="number">2</amount>
+					<name type="string">Zenoglos- I helped despose of a half breed brood(New Dawn Of Hope)</name>
+				</id-00004>
+			</coins>
+			<domain_academia type="number">1</domain_academia>
+			<domain_commerce type="number">0</domain_commerce>
+			<domain_crime type="number">0</domain_crime>
+			<domain_high_society type="number">0</domain_high_society>
+			<domain_low_society type="number">1</domain_low_society>
+			<domain_occult type="number">0</domain_occult>
+			<domain_order type="number">0</domain_order>
+			<domain_religion type="number">1</domain_religion>
+			<domain_technology type="number">0</domain_technology>
+			<durance type="string">SAGE(p27)</durance>
+			<inventorylist>
+				<holder name="Vzaretskiy" owner="true" />
+				<id-00001>
+					<holder name="Vzaretskiy" owner="true" />
+					<carried type="number">1</carried>
+					<count type="number">1</count>
+					<name type="string">Leather and robes: Armour 2</name>
+				</id-00001>
+				<id-00002>
+					<holder name="Vzaretskiy" owner="true" />
+					<carried type="number">1</carried>
+					<count type="number">1</count>
+					<name type="string">Hyena (see page 38)</name>
+				</id-00002>
+				<id-00003>
+					<holder name="Vzaretskiy" owner="true" />
+					<carried type="number">1</carried>
+					<count type="number">1</count>
+					<name type="string">War-cleaver (D6) and Preyhook (D3, Ranged, Stunning)</name>
+				</id-00003>
+			</inventorylist>
+			<name type="string">Borel Bellgivh</name>
+			<refresh type="string">Complete a hunt and take your guarry.</refresh>
+			<resistance_blood_free_slot_1 type="number">1</resistance_blood_free_slot_1>
+			<resistance_blood_free_slot_2 type="number">1</resistance_blood_free_slot_2>
+			<resistance_blood_free_slot_3 type="number">0</resistance_blood_free_slot_3>
+			<resistance_blood_free_slot_4 type="number">0</resistance_blood_free_slot_4>
+			<resistance_blood_free_slot_5 type="number">0</resistance_blood_free_slot_5>
+			<resistance_mind_free_slot_1 type="number">1</resistance_mind_free_slot_1>
+			<resistance_mind_free_slot_2 type="number">1</resistance_mind_free_slot_2>
+			<resistance_mind_free_slot_3 type="number">0</resistance_mind_free_slot_3>
+			<resistance_mind_free_slot_4 type="number">0</resistance_mind_free_slot_4>
+			<resistance_mind_free_slot_5 type="number">0</resistance_mind_free_slot_5>
+			<resistance_reputation_free_slot_1 type="number">1</resistance_reputation_free_slot_1>
+			<resistance_reputation_free_slot_2 type="number">1</resistance_reputation_free_slot_2>
+			<resistance_reputation_free_slot_3 type="number">0</resistance_reputation_free_slot_3>
+			<resistance_reputation_free_slot_4 type="number">0</resistance_reputation_free_slot_4>
+			<resistance_reputation_free_slot_5 type="number">0</resistance_reputation_free_slot_5>
+			<resistance_shadow_free_slot_1 type="number">0</resistance_shadow_free_slot_1>
+			<resistance_shadow_free_slot_2 type="number">0</resistance_shadow_free_slot_2>
+			<resistance_shadow_free_slot_3 type="number">0</resistance_shadow_free_slot_3>
+			<resistance_shadow_free_slot_4 type="number">0</resistance_shadow_free_slot_4>
+			<resistance_shadow_free_slot_5 type="number">0</resistance_shadow_free_slot_5>
+			<resistance_silver_free_slot_1 type="number">0</resistance_silver_free_slot_1>
+			<resistance_silver_free_slot_2 type="number">0</resistance_silver_free_slot_2>
+			<resistance_silver_free_slot_3 type="number">0</resistance_silver_free_slot_3>
+			<resistance_silver_free_slot_4 type="number">0</resistance_silver_free_slot_4>
+			<resistance_silver_free_slot_5 type="number">0</resistance_silver_free_slot_5>
+			<skill_compel type="number">1</skill_compel>
+			<skill_deceive type="number">0</skill_deceive>
+			<skill_fight type="number">0</skill_fight>
+			<skill_fix type="number">0</skill_fix>
+			<skill_investigate type="number">0</skill_investigate>
+			<skill_pursue type="number">1</skill_pursue>
+			<skill_resist type="number">0</skill_resist>
+			<skill_sneak type="number">1</skill_sneak>
+			<skill_steal type="number">0</skill_steal>
+			<stress_blood type="number">0</stress_blood>
+			<stress_mind type="number">0</stress_mind>
+			<stress_reputation type="number">0</stress_reputation>
+			<stress_shadow type="number">0</stress_shadow>
+			<stress_silver type="number">0</stress_silver>
+			<token type="token">portrait_id-00006_token</token>
+		</id-00006>
 	</charsheet>
 	<chat>
 		<public />

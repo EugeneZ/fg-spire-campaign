@@ -27,7 +27,7 @@
 	<window data="partysheet" class="partysheet_host" pos="574,318,1344,898" />
 	<window data="combattracker" class="combattracker_host" pos="759,318,1159,818" />
 	<window data="battle" class="masterindex" pos="734,343,1184,793" />
-	<window data="charsheet.id-00004" class="charsheet" pos="913,-13,1438,555" />
+	<window data="charsheet.id-00004" class="charsheet" pos="431,42,956,610" />
 	<window data="charsheet.id-00002.abilitylist.id-00002" class="ability" pos="1195,711,1595,1061" />
 	<window data="charsheet.id-00002.abilitylist.id-00001" class="ability" pos="1224,541,1424,827" />
 	<window data="charsheet.id-00003.abilitylist.id-00002" class="ability" pos="993,79,1393,429" />
@@ -39,7 +39,7 @@
 	<window data="charsheet.id-00001.abilitylist.id-00003" class="ability" pos="879,654,1268,1004" />
 	<window data="encounter" class="masterindex" pos="1222,537,1672,987" />
 	<window data="charsheet.id-00001.abilitylist.id-00004" class="ability" pos="759,393,1159,739" />
-	<window data="charsheet.id-00005" class="charsheet" pos="391,-13,916,555" />
+	<window data="charsheet.id-00005" class="charsheet" pos="1276,384,1801,952" />
 	<window data="charsheet.id-00002.abilitylist.id-00004" class="ability" pos="1527,270,1927,718" />
 	<window data="charsheet.id-00001.abilitylist.id-00006" class="ability" pos="759,393,1159,743" />
 	<window data="charsheet.id-00005.abilitylist.id-00004" class="ability" pos="1228,620,1612,970" />
@@ -63,6 +63,10 @@
 	<window data="charsheet.id-00002.abilitylist.id-00007" class="ability" pos="1139,711,1468,1078" />
 	<window data="charsheet.id-00005.abilitylist.id-00006" class="ability" pos="759,393,1159,743" />
 	<window data="calendar" class="calendar" pos="632,318,1287,818" />
+	<window data="charsheet.id-00006.abilitylist.id-00004" class="ability" pos="1450,527,1850,877" />
+	<window data="charsheet.id-00006.abilitylist.id-00006" class="ability" pos="1058,526,1458,876" />
+	<window data="charsheet.id-00004.abilitylist.id-00006" class="ability" pos="1119,675,1519,1025" />
+	<window data="charsheet.id-00006" class="charsheet" pos="974,50,1499,618" />
 	<image data="image.id-00001" class="imagewindow" control="image" view="0,0" zoom="0.0731195658445358" />
 	<image data="image.id-00002" class="imagewindow" control="image" view="131,-573" zoom="1.00405416604213" />
 </windowstate>
