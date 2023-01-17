@@ -962,17 +962,19 @@
 			<abilitylist>
 				<holder name="Vzaretskiy" owner="true" />
 				<id-00001>
+					<public />
 					<holder name="Vzaretskiy" owner="true" />
 					<locked type="number">1</locked>
-					<name type="string">HYENA</name>
+					<name type="string">HYENA(Tolz)</name>
 					<text type="formattedtext">
-						<p>HYENA. You have a companion hyena who obeys your commands. At character creation, pick two com mands that your hyena understands. At the start of your turn, choose one command to give to your hyena from the list that it understands so long as it can hear you speak:</p>
+						<p>HYENA. You have a companion hyena who obeys your commands. At character creation, pick two commands that your hyena understands. At the start of your turn, choose one command to give to your hyena from the list that it understands so long as it can hear you speak:</p>
 						<p>SIC &#8216;EM: When you launch a surprise melee attack on a target, your attacks gain the Brutal tag.</p>
 						<p>SCOUT: When you attack at range from a position of hiding, your attacks gain the Brutal tag.</p>
 						<p>GROWL: When you intimidate or drive away some one, do so with mastery.</p>
 						<p>GUARD: When you take stress to Blood, take 1 less stress than the result rolled to a minimum of 1.</p>
 						<p>FETCH: When you hunt down a target that you can see and hear, do so with mastery.</p>
-						<p>SCENT: When you sniff around a scene for clues, do so with mastery.</p>
+						<p>SCENT: When you sniff around a scene for clues, do so with mastery.&#13;&#13;SPEAK(New Tricks #1): Tollz can speak in your voice, though much rougher.</p>
+						<p>VANISH(New Tricks #2): Tollz can hide in the shadows. Unseen and unheard.</p>
 					</text>
 				</id-00001>
 				<id-00002>
@@ -1000,14 +1002,16 @@
 					</text>
 				</id-00004>
 				<id-00005>
+					<public />
 					<holder name="Vzaretskiy" owner="true" />
 					<locked type="number">1</locked>
-					<name type="string">NEW TRICKS(Need two more commands)</name>
+					<name type="string">NEW TRICKS</name>
 					<text type="formattedtext">
 						<p>NEW TRICKS. Your hyena is unusually well-trained. Gain the Compel skill. Choose two more commands that your hyena understands.&#13;&#13;</p>
 					</text>
 				</id-00005>
 				<id-00006>
+					<public />
 					<holder name="Vzaretskiy" owner="true" />
 					<locked type="number">1</locked>
 					<name type="string">ALPHA</name>
@@ -1062,7 +1066,7 @@
 					<holder name="Vzaretskiy" owner="true" />
 					<carried type="number">1</carried>
 					<count type="number">1</count>
-					<name type="string">Hyena (see page 38)</name>
+					<name type="string">Hyena(Tollz) (see page 38)</name>
 				</id-00002>
 				<id-00003>
 					<holder name="Vzaretskiy" owner="true" />
