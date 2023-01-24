@@ -429,7 +429,7 @@
 			<stress_blood type="number">0</stress_blood>
 			<stress_mind type="number">2</stress_mind>
 			<stress_reputation type="number">0</stress_reputation>
-			<stress_shadow type="number">2</stress_shadow>
+			<stress_shadow type="number">3</stress_shadow>
 			<stress_silver type="number">0</stress_silver>
 			<temp>
 				<holder name="Holythesea" owner="true" />
@@ -713,6 +713,7 @@
 			<domain_religion type="number">1</domain_religion>
 			<domain_technology type="number">0</domain_technology>
 			<durance type="string">Acolyte</durance>
+			<fallout_shadow type="string">Burned</fallout_shadow>
 			<inventorylist>
 				<holder name="gaerlan" owner="true" />
 				<id-00001>
@@ -768,9 +769,9 @@
 			<skill_sneak type="number">0</skill_sneak>
 			<skill_steal type="number">0</skill_steal>
 			<stress_blood type="number">4</stress_blood>
-			<stress_mind type="number">1</stress_mind>
+			<stress_mind type="number">2</stress_mind>
 			<stress_reputation type="number">3</stress_reputation>
-			<stress_shadow type="number">0</stress_shadow>
+			<stress_shadow type="number">3</stress_shadow>
 			<stress_silver type="number">0</stress_silver>
 			<token type="token">portrait_id-00004_token</token>
 		</id-00004>
@@ -994,8 +995,9 @@
 					</text>
 				</id-00003>
 				<id-00004>
+					<public />
 					<holder name="Vzaretskiy" owner="true" />
-					<locked type="number">1</locked>
+					<locked type="number">0</locked>
 					<name type="string">CACKLE</name>
 					<text type="formattedtext">
 						<p>CACKLE. [Divine] You are a terror of New Heaven, and your enemies quake at your approach. +1 Reputation. Mark D3 stress to Mind or Body to unleash a nightmarish cackle in concert with your hyena that strikes fear into the hearts of your enemies (and anyone else within earshot). For the next minute or so, if your enemies have a difficulty rating, it is one lower.</p>
@@ -1111,8 +1113,8 @@
 			<skill_resist type="number">0</skill_resist>
 			<skill_sneak type="number">1</skill_sneak>
 			<skill_steal type="number">0</skill_steal>
-			<stress_blood type="number">0</stress_blood>
-			<stress_mind type="number">0</stress_mind>
+			<stress_blood type="number">2</stress_blood>
+			<stress_mind type="number">1</stress_mind>
 			<stress_reputation type="number">0</stress_reputation>
 			<stress_shadow type="number">0</stress_shadow>
 			<stress_silver type="number">0</stress_silver>

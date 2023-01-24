@@ -19,7 +19,7 @@
 	<window data="image" class="masterindex" pos="908,104,1358,554" />
 	<window data="image.id-00001" class="imagewindow" pos="1942,120,2522,700" />
 	<window data="charsheet.id-00003" class="charsheet" pos="1006,314,1531,882" />
-	<window data="charsheet.id-00002" class="charsheet" pos="407,535,932,1103" />
+	<window data="charsheet.id-00002" class="charsheet" pos="953,33,1478,601" />
 	<window data="charsheet.id-00001" class="charsheet" pos="913,540,1438,1108" />
 	<window data="image.id-00002" class="imagewindow" pos="635,-15,1854,1116" />
 	<window data="npc" class="masterindex" pos="734,343,1184,793" />
@@ -27,9 +27,9 @@
 	<window data="partysheet" class="partysheet_host" pos="574,318,1344,898" />
 	<window data="combattracker" class="combattracker_host" pos="759,318,1159,818" />
 	<window data="battle" class="masterindex" pos="734,343,1184,793" />
-	<window data="charsheet.id-00004" class="charsheet" pos="407,-9,932,559" />
+	<window data="charsheet.id-00004" class="charsheet" pos="403,33,928,601" />
 	<window data="charsheet.id-00002.abilitylist.id-00002" class="ability" pos="1195,711,1595,1061" />
-	<window data="charsheet.id-00002.abilitylist.id-00001" class="ability" pos="1224,541,1424,827" />
+	<window data="charsheet.id-00002.abilitylist.id-00001" class="ability" pos="1162,807,1362,1093" />
 	<window data="charsheet.id-00003.abilitylist.id-00002" class="ability" pos="993,79,1393,429" />
 	<window data="charsheet.id-00003.abilitylist.id-00003" class="ability" pos="416,718,827,1074" />
 	<window data="charsheet.id-00003.abilitylist.id-00001" class="ability" pos="1401,495,1801,845" />
@@ -40,7 +40,7 @@
 	<window data="encounter" class="masterindex" pos="1222,537,1672,987" />
 	<window data="charsheet.id-00001.abilitylist.id-00004" class="ability" pos="759,393,1159,739" />
 	<window data="charsheet.id-00005" class="charsheet" pos="1276,384,1801,952" />
-	<window data="charsheet.id-00002.abilitylist.id-00004" class="ability" pos="1527,270,1927,718" />
+	<window data="charsheet.id-00002.abilitylist.id-00004" class="ability" pos="1146,578,1546,1026" />
 	<window data="charsheet.id-00001.abilitylist.id-00006" class="ability" pos="759,393,1159,743" />
 	<window data="charsheet.id-00005.abilitylist.id-00004" class="ability" pos="1228,620,1612,970" />
 	<window data="charsheet.id-00001.abilitylist.id-00005" class="ability" pos="226,707,626,1057" />
@@ -48,14 +48,14 @@
 	<window data="charsheet.id-00005.abilitylist.id-00002" class="ability" pos="569,624,969,974" />
 	<window data="charsheet.id-00005.abilitylist.id-00005" class="ability" pos="392,13,792,363" />
 	<window data="item" class="masterindex" pos="734,343,1184,793" />
-	<window data="charsheet.id-00004.abilitylist.id-00002" class="ability" pos="1192,833,1420,1066" />
+	<window data="charsheet.id-00004.abilitylist.id-00002" class="ability" pos="1152,818,1380,1051" />
 	<window data="charsheet.id-00002.abilitylist.id-00006" class="ability" pos="1593,711,1993,1061" />
 	<window data="tables" class="masterindex" pos="734,343,1184,793" />
-	<window data="charsheet.id-00004.abilitylist.id-00001" class="ability" pos="1089,670,1489,1020" />
+	<window data="charsheet.id-00004.abilitylist.id-00001" class="ability" pos="1026,394,1426,744" />
 	<window data="charsheet.id-00002.abilitylist.id-00005" class="ability" pos="1222,651,1599,1024" />
 	<window data="charsheet.id-00005.abilitylist.id-00001" class="ability" pos="397,710,797,1060" />
 	<window data="charsheet.id-00004.abilitylist.id-00003" class="ability" pos="793,712,1193,1062" />
-	<window data="charsheet.id-00004.abilitylist.id-00005" class="ability" pos="1129,311,1529,719" />
+	<window data="charsheet.id-00004.abilitylist.id-00005" class="ability" pos="1352,556,1752,964" />
 	<window data="charsheet.id-00004.abilitylist.id-00004" class="ability" pos="1392,746,1728,1096" />
 	<window data="settings.tokenlight.id-00002" class="tokenlight" pos="784,418,1134,718" />
 	<window data="modifiers" class="modifiers" pos="684,353,1234,783" />
@@ -63,12 +63,13 @@
 	<window data="charsheet.id-00002.abilitylist.id-00007" class="ability" pos="1139,711,1468,1078" />
 	<window data="charsheet.id-00005.abilitylist.id-00006" class="ability" pos="759,393,1159,743" />
 	<window data="calendar" class="calendar" pos="632,318,1287,818" />
-	<window data="charsheet.id-00006.abilitylist.id-00004" class="ability" pos="1450,527,1850,877" />
+	<window data="charsheet.id-00006.abilitylist.id-00004" class="ability" pos="1237,481,1637,831" />
 	<window data="charsheet.id-00006.abilitylist.id-00006" class="ability" pos="1031,146,1431,496" />
 	<window data="charsheet.id-00004.abilitylist.id-00006" class="ability" pos="1119,675,1519,1025" />
-	<window data="charsheet.id-00006" class="charsheet" pos="919,-9,1444,559" />
-	<window data="charsheet.id-00006.abilitylist.id-00001" class="ability" pos="1026,498,1426,848" />
+	<window data="charsheet.id-00006" class="charsheet" pos="940,477,1465,1045" />
+	<window data="charsheet.id-00006.abilitylist.id-00001" class="ability" pos="1456,484,1856,977" />
 	<window data="charsheet.id-00006.abilitylist.id-00005" class="ability" pos="543,515,943,865" />
+	<window data="charsheet.id-00006.abilitylist.id-00002" class="ability" pos="390,708,790,1058" />
 	<image data="image.id-00001" class="imagewindow" control="image" view="0,0" zoom="0.0731195658445358" />
 	<image data="image.id-00002" class="imagewindow" control="image" view="131,-573" zoom="1.00405416604213" />
 </windowstate>
