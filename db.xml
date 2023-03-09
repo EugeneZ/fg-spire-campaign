@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<root version="4.3" dataversion="20220901" release="5">
+<root version="4.3" dataversion="20230221" release="5">
 	<battle />
 	<calendar>
 		<public />
@@ -713,6 +713,7 @@
 			<domain_religion type="number">1</domain_religion>
 			<domain_technology type="number">0</domain_technology>
 			<durance type="string">Acolyte</durance>
+			<fallout_mind type="string">Obsessed</fallout_mind>
 			<fallout_shadow type="string">Burned</fallout_shadow>
 			<inventorylist>
 				<holder name="gaerlan" owner="true" />
@@ -732,7 +733,7 @@
 					</notes>
 				</id-00002>
 			</inventorylist>
-			<name type="string">Zenoglos</name>
+			<name type="string">(NPC) Zenoglos</name>
 			<refresh type="string">Defend the defenceless</refresh>
 			<resistance_blood_free_slot_1 type="number">0</resistance_blood_free_slot_1>
 			<resistance_blood_free_slot_2 type="number">0</resistance_blood_free_slot_2>
@@ -769,7 +770,7 @@
 			<skill_sneak type="number">0</skill_sneak>
 			<skill_steal type="number">0</skill_steal>
 			<stress_blood type="number">4</stress_blood>
-			<stress_mind type="number">2</stress_mind>
+			<stress_mind type="number">7</stress_mind>
 			<stress_reputation type="number">3</stress_reputation>
 			<stress_shadow type="number">3</stress_shadow>
 			<stress_silver type="number">0</stress_silver>
@@ -965,7 +966,7 @@
 				<id-00001>
 					<public />
 					<holder name="Vzaretskiy" owner="true" />
-					<locked type="number">1</locked>
+					<locked type="number">0</locked>
 					<name type="string">HYENA(Tolz)</name>
 					<text type="formattedtext">
 						<p>HYENA. You have a companion hyena who obeys your commands. At character creation, pick two commands that your hyena understands. At the start of your turn, choose one command to give to your hyena from the list that it understands so long as it can hear you speak:</p>
@@ -1110,7 +1111,7 @@
 			<skill_fix type="number">0</skill_fix>
 			<skill_investigate type="number">0</skill_investigate>
 			<skill_pursue type="number">1</skill_pursue>
-			<skill_resist type="number">0</skill_resist>
+			<skill_resist type="number">1</skill_resist>
 			<skill_sneak type="number">1</skill_sneak>
 			<skill_steal type="number">0</skill_steal>
 			<stress_blood type="number">2</stress_blood>
@@ -1120,6 +1121,117 @@
 			<stress_silver type="number">0</stress_silver>
 			<token type="token">portrait_id-00006_token</token>
 		</id-00006>
+		<id-00007>
+			<holder name="gaerlan" owner="true" />
+			<abilitylist>
+				<holder name="gaerlan" owner="true" />
+				<id-00001>
+					<holder name="gaerlan" owner="true" />
+					<name type="string">Rite of Respite</name>
+					<text type="formattedtext">
+						<p>[Divine] You create a place of stillness and healing. Once per session, lead your allies in a recuperation session while you hold vigil. Describe how you create a comfortable, healing environment and how you help them. All allies present may restore 3 stress from Mind or Blood.</p>
+					</text>
+				</id-00001>
+				<id-00002>
+					<holder name="gaerlan" owner="true" />
+					<name type="string">Moonlight</name>
+					<text type="formattedtext">
+						<p>[Divine] Limy&#233;&#8217;s light shines forth from you. Your forehead gem (or necklace, or bracelet, etc) glows as brightly as the full moon, casting a calm light into the darkness that cannot be extinguished unless you decide to snuff it, or you fall unconscious. The more ritualists casting this spell simultaneously, the brighter the light becomes.</p>
+					</text>
+				</id-00002>
+				<id-00003>
+					<holder name="gaerlan" owner="true" />
+					<name type="string">Friend to the Downtrodden</name>
+					<text type="formattedtext">
+						<p>You can sense who most needs your help. +1 Reputation. Once per situation, ask the GM which NPC is most in need of help, and they&#8217;ll tell you.</p>
+					</text>
+				</id-00003>
+				<id-00004>
+					<holder name="gaerlan" owner="true" />
+					<name type="string">Rite of the Silver Sanctuary</name>
+					<text type="formattedtext">
+						<p>[Divine] You mark a room as sacred to the goddess, barring the entry of trespassers. Anoint the walls of an area (the size of a large room) with silver pigment mixed with sacred oils and mark D3 stress to Mind. If you are present in the area, you can stop or slow unwelcome guests from coming inside &#8211; if someone attempts to enter the area and you don&#8217;t want them to, they take D6 stress. They can sense this beforehand and choose not to enter if they wish.</p>
+					</text>
+				</id-00004>
+				<id-00005>
+					<holder name="gaerlan" owner="true" />
+					<name type="string">Scryatrix Nascen</name>
+					<text type="formattedtext">
+						<p>[Divine] You possess uncanny senses, and take the first step along the path of the blind seer. Spend ten minutes meditating and attuning to the area around you to uncover strangeness or things out of place. You may then ask the GM to reveal something hidden to you in your immediate area: this can be an item, a motivation, a pathway, etc. The GM will relay the information to you as a vision or sensation, not hard data.</p>
+					</text>
+				</id-00005>
+				<id-00006>
+					<holder name="gaerlan" owner="true" />
+					<name type="string">Scryatrix Inanis</name>
+					<text type="formattedtext">
+						<p>[Divine] You are accepted into the first circle of the Scryatrices, the blind seers of Our Glorious Lady. You must have the SCRYATRIX NASCEN advance to purchase this advance. As part of an hour-long ritual, cover your eyes with cloth and silver &#8211; preferably spider-silk and broad, curved eye-shields with Our Lady&#8217;s symbol on the inside of each. While you wear the covering, you can&#8217;t see normally, but you can see the auras of people and places around you. Their auras show information about them that they simply cannot hide, cluing you in as to whether they&#8217;re under supernatural influence, undead, or an occultist.</p>
+						<p />
+						<p>For each point of stress you mSark against Mind when casting this spell, you are able to &#8220;see&#8221; one item from the following list:</p>
+						<p />
+						<p>&#8226; Any bonds the character has, or any important relationships if they&#8217;re an NPC</p>
+						<p>&#8226; The target&#8217;s current numerical stress values</p>
+						<p>&#8226; The subject&#8217;s skills and domains</p>
+						<p>&#8226; Whether the target is undead, possessed or haunted (or is a ghost)</p>
+						<p>&#8226; Whether the character has cast a spell in recent memory, and what it was</p>
+						<p>&#8226; The character&#8217;s emotional state</p>
+						<p />
+						<p>The spell lasts until you remove the bindings. Increase the difficulty of all other tasks by at least 1 when doing anything else, as you&#8217;re effectively blind &#8211; certain tasks, like reading a book or looking for something in a painting, are impossible.</p>
+					</text>
+				</id-00006>
+			</abilitylist>
+			<class type="string">Lajhan</class>
+			<coins>
+				<holder name="gaerlan" owner="true" />
+				<id-00001>
+					<holder name="gaerlan" owner="true" />
+				</id-00001>
+				<id-00002>
+					<holder name="gaerlan" owner="true" />
+				</id-00002>
+			</coins>
+			<domain_low_society type="number">1</domain_low_society>
+			<domain_religion type="number">1</domain_religion>
+			<durance type="string">Acolyte</durance>
+			<inventorylist>
+				<holder name="gaerlan" owner="true" />
+				<id-00001>
+					<holder name="gaerlan" owner="true" />
+					<carried type="number">1</carried>
+					<count type="number">1</count>
+					<name type="string">Ceremonial robes</name>
+				</id-00001>
+				<id-00002>
+					<holder name="gaerlan" owner="true" />
+					<carried type="number">1</carried>
+					<count type="number">1</count>
+					<name type="string">Set of wooden &amp; silver jewellery</name>
+				</id-00002>
+				<id-00003>
+					<holder name="gaerlan" owner="true" />
+					<carried type="number">1</carried>
+					<count type="number">1</count>
+					<name type="string">L'od Nansan Knife (d3, concealable)</name>
+				</id-00003>
+				<id-00004>
+					<holder name="gaerlan" owner="true" />
+					<carried type="number">1</carried>
+					<count type="number">1</count>
+					<name type="string">Healer's kit</name>
+				</id-00004>
+			</inventorylist>
+			<name type="string">Eugolof</name>
+			<refresh type="string">Help those who cannot help themselves</refresh>
+			<resistance_mind_free_slot_2 type="number">1</resistance_mind_free_slot_2>
+			<resistance_mind_free_slot_3 type="number">1</resistance_mind_free_slot_3>
+			<resistance_mind_free_slot_4 type="number">1</resistance_mind_free_slot_4>
+			<resistance_mind_free_slot_5 type="number">1</resistance_mind_free_slot_5>
+			<resistance_reputation_free_slot_1 type="number">0</resistance_reputation_free_slot_1>
+			<resistance_reputation_free_slot_4 type="number">1</resistance_reputation_free_slot_4>
+			<resistance_reputation_free_slot_5 type="number">1</resistance_reputation_free_slot_5>
+			<skill_fix type="number">1</skill_fix>
+			<skill_resist type="number">1</skill_resist>
+			<token type="token">portrait_id-00007_token</token>
+		</id-00007>
 	</charsheet>
 	<chat>
 		<public />
@@ -1189,12 +1301,13 @@
 						<type>token</type>
 						<token>
 							<prototype>portraits/FG Fantasy/darkelf_female_fantasy.jpg</prototype>
+							<prototype3Dflat />
 							<id>1</id>
 							<publicedit />
 							<fowenabled />
 							<visibility>mask</visibility>
 						</token>
-						<matrix>0.1999969,0,0,0,0,0.1999512,0,0,0,0,1,0,-75,-550,0,1</matrix>
+						<matrix>0.2,0,0,0,0,0.2,0,0,0,0,0,0,-75,-550,0,1</matrix>
 					</layer>
 				</layers>
 			</image>
