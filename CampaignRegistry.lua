@@ -14,25 +14,25 @@
 	["OptCHATFONTCOLORS"] = "off",
 	["sidebarvisibility"] = 1,
 	["setup"] = true,
-	["sidebarexpand"] = {
-		[1] = "campaign",
-		[2] = "library",
-		[4] = "tool",
-		[3] = "player",
-	},
+	["OptREVL"] = "on",
 	["OptCHATICONTHEME"] = "square",
 	["OptMANUALROLL"] = "off",
 	["desktopdicedisable"] = {
-		["d100"] = true,
 		["dF"] = true,
+		["d100"] = true,
 	},
 	["colortables"] = {
 		[""] = {
 			["color"] = "000000",
-			["dicebodycolor"] = "272100",
 			["diceskin"] = 94,
+			["dicebodycolor"] = "272100",
 			["dicetextcolor"] = "C2FF5A",
 		},
 	},
-	["OptREVL"] = "on",
+	["sidebarexpand"] = {
+		[1] = "campaign",
+		[2] = "library",
+		[3] = "player",
+		[4] = "tool",
+	},
 }
