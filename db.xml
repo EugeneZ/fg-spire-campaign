@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<root version="4.4" dataversion="20230601" release="5">
+<root version="4.4" dataversion="20230911" release="5">
 	<battle />
 	<calendar>
 		<public />
@@ -1307,7 +1307,7 @@
 							<fowenabled />
 							<visibility>mask</visibility>
 						</token>
-						<matrix>0.2,-1.049044E-06,0,0,1.049044E-06,0.2,0,0,0,0,0,0,-75,-550,0,1</matrix>
+						<matrix>0.2,-1.585488E-06,0,0,1.585488E-06,0.2,0,0,0,0,0,0,-75,-550,0,1</matrix>
 					</layer>
 				</layers>
 			</image>
