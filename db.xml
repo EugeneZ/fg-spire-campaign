@@ -1307,7 +1307,7 @@
 							<fowenabled />
 							<visibility>mask</visibility>
 						</token>
-						<matrix>0.2,-1.585488E-06,0,0,1.585488E-06,0.2,0,0,0,0,0,0,-75,-550,0,1</matrix>
+						<matrix>0.2,-2.110009E-06,0,0,2.110009E-06,0.2,0,0,0,0,0,0,-75,-550,0,1</matrix>
 					</layer>
 				</layers>
 			</image>

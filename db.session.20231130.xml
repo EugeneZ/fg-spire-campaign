@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<root version="4.3" dataversion="20220901" release="5">
+<root version="4.4" dataversion="20230911" release="5">
 	<battle />
 	<calendar>
 		<public />
+		<base>
+			<public />
+		</base>
 	</calendar>
 	<charsheet>
 		<id-00001>
@@ -268,6 +271,7 @@
 					</text>
 				</id-00004>
 				<id-00005>
+					<public />
 					<holder name="Holythesea" owner="true" />
 					<locked type="number">1</locked>
 					<name type="string">CITIZEN'S MASK</name>
@@ -303,6 +307,15 @@
 						<p>(up to a maximum of 3), ask the GM one question about the organisation that they must answer honestly.</p>
 					</text>
 				</id-00006>
+				<id-00007>
+					<public />
+					<holder name="Holythesea" owner="true" />
+					<locked type="number">1</locked>
+					<name type="string">MASK OF PLENTY [Occult]</name>
+					<text type="formattedtext">
+						<p>The mask of plenty is a favoured tool amongst destitute nobles and scheming tricksters. +2 Silver and gain access to the Commerce domain. When you wear this mask, you give off the impression that you are rich, famous and charismatic. People will treat you appropriately, even if you give them reasons not to, and will expect repayment for favours to be an easy task for you.</p>
+					</text>
+				</id-00007>
 			</abilitylist>
 			<background type="string">Zilvice spent his durance in service to Qinrel Rimdor. Where he would regularly ‘visit’ other high elf houses. Skulking in the shadows to overhear thought to be private conversations and relaying this back to Master Rimdor gained him favor with the master and the occasional freedoms. Never really accepting High Elf rule, he met a kindred spirit in Glaygia, who made mention of The Ministry after their durances brought them together. He has been spending time in Red Row to get away from his previous master and to truly join The Ministry’s fight to take back Spire.</background>
 			<blood type="number">0</blood>
@@ -331,7 +344,7 @@
 				</id-00004>
 			</coins>
 			<domain_academia type="number">0</domain_academia>
-			<domain_commerce type="number">0</domain_commerce>
+			<domain_commerce type="number">1</domain_commerce>
 			<domain_crime type="number">0</domain_crime>
 			<domain_high_society type="number">1</domain_high_society>
 			<domain_low_society type="number">0</domain_low_society>
@@ -401,8 +414,8 @@
 			<resistance_shadow_free_slot_5 type="number">1</resistance_shadow_free_slot_5>
 			<resistance_silver_free_slot_1 type="number">0</resistance_silver_free_slot_1>
 			<resistance_silver_free_slot_2 type="number">0</resistance_silver_free_slot_2>
-			<resistance_silver_free_slot_3 type="number">0</resistance_silver_free_slot_3>
-			<resistance_silver_free_slot_4 type="number">0</resistance_silver_free_slot_4>
+			<resistance_silver_free_slot_3 type="number">1</resistance_silver_free_slot_3>
+			<resistance_silver_free_slot_4 type="number">1</resistance_silver_free_slot_4>
 			<resistance_silver_free_slot_5 type="number">1</resistance_silver_free_slot_5>
 			<skill_compel type="number">1</skill_compel>
 			<skill_deceive type="number">1</skill_deceive>
@@ -413,11 +426,14 @@
 			<skill_resist type="number">1</skill_resist>
 			<skill_sneak type="number">1</skill_sneak>
 			<skill_steal type="number">0</skill_steal>
-			<stress_blood type="number">5</stress_blood>
+			<stress_blood type="number">0</stress_blood>
 			<stress_mind type="number">2</stress_mind>
 			<stress_reputation type="number">0</stress_reputation>
-			<stress_shadow type="number">2</stress_shadow>
+			<stress_shadow type="number">3</stress_shadow>
 			<stress_silver type="number">0</stress_silver>
+			<temp>
+				<holder name="Holythesea" owner="true" />
+			</temp>
 			<token type="token">portrait_id-00002_token</token>
 		</id-00002>
 		<id-00003>
@@ -590,6 +606,7 @@
 			<abilitylist>
 				<holder name="gaerlan" owner="true" />
 				<id-00001>
+					<public />
 					<holder name="gaerlan" owner="true" />
 					<locked type="number">1</locked>
 					<name type="string">Martyr</name>
@@ -616,31 +633,55 @@
 					</text>
 				</id-00002>
 				<id-00003>
+					<public />
 					<holder name="gaerlan" owner="true" />
-					<locked type="number">1</locked>
+					<locked type="number">0</locked>
 					<name type="string">Canticle of Remaking</name>
+					<shortcut type="windowreference">
+						<class>ability</class>
+						<recordname />
+					</shortcut>
 					<text type="formattedtext">
 						<p>[Occult] Intoning ancient psalms to forgotten powers, you bind your wounds with strands of ethereal web. +1 Blood. Roll Fix+Occult to cast this spell. On a success, remove D6 stress from Blood on yourself, or D3 stress from Blood on another character.</p>
 					</text>
 				</id-00003>
 				<id-00004>
+					<public />
 					<holder name="gaerlan" owner="true" />
 					<locked type="number">1</locked>
 					<name type="string">Blessing of Ishkrah</name>
+					<shortcut type="windowreference">
+						<class>ability</class>
+						<recordname />
+					</shortcut>
 					<text type="formattedtext">
 						<p>[Occult] You weave a spell of protection over your allies, and inky spiders crawl across their skin. Gain the Academia domain.</p>
 						<p>Roll Fix+Occult to cast this spell. On a success, your allies are under the protection of Ishkrah: the first time they suffer stress to Blood in combat, the enemy that caused the stress suffers D3 stress from arachnid nightmares assaulting their senses.</p>
 					</text>
 				</id-00004>
 				<id-00005>
+					<public />
 					<holder name="gaerlan" owner="true" />
 					<locked type="number">1</locked>
 					<name type="string">Eyes of Ishkrah</name>
+					<shortcut type="windowreference">
+						<class>ability</class>
+						<recordname />
+					</shortcut>
 					<text type="formattedtext">
 						<p>[Occult] You grow additional eyes with which you can sense the threads of magic. Gain the Investigate skill.</p>
 						<p>Roll Investigate+Occult to cast. On a success, you see all forms of occult magic in the surrounding area as shimmering webs of fate (including those around invisible creatures, or people observing you remotely) until the end of the current situation. You can follow these threads to the point where the spell was cast.</p>
 					</text>
 				</id-00005>
+				<id-00006>
+					<public />
+					<holder name="gaerlan" owner="true" />
+					<locked type="number">1</locked>
+					<name type="string">Weave the Web</name>
+					<text type="formattedtext">
+						<p>[Occult] You can weave a bond between people who&#8217;ve never met, forcing them into each other&#8217;s destiny. As PLUCK THE WEB, but the groups or entities involved do not have to share a connection for you to affect them.</p>
+					</text>
+				</id-00006>
 			</abilitylist>
 			<background type="string">ACOLYTE: +2 Mind, Religion. You spent time serving as an assistant to an aelfir in the Solar Basilica or researching ancient gods in dusty temples. You have a broad awareness of religious practices in Spire and are used to helping out during casting of ritual magic.\n</background>
 			<class type="string">Midwife</class>
@@ -654,8 +695,13 @@
 				<id-00002>
 					<holder name="gaerlan" owner="true" />
 					<amount type="number">0</amount>
-					<name type="string">Sister Melith</name>
+					<name type="string">Sister Britta'xant</name>
 				</id-00002>
+				<id-00003>
+					<holder name="gaerlan" owner="true" />
+					<amount type="number">0</amount>
+					<name type="string">Karak</name>
+				</id-00003>
 			</coins>
 			<domain_academia type="number">1</domain_academia>
 			<domain_commerce type="number">0</domain_commerce>
@@ -667,6 +713,8 @@
 			<domain_religion type="number">1</domain_religion>
 			<domain_technology type="number">0</domain_technology>
 			<durance type="string">Acolyte</durance>
+			<fallout_mind type="string">Obsessed</fallout_mind>
+			<fallout_shadow type="string">Burned</fallout_shadow>
 			<inventorylist>
 				<holder name="gaerlan" owner="true" />
 				<id-00001>
@@ -685,7 +733,7 @@
 					</notes>
 				</id-00002>
 			</inventorylist>
-			<name type="string">Zenoglos</name>
+			<name type="string">(NPC) Zenoglos</name>
 			<refresh type="string">Defend the defenceless</refresh>
 			<resistance_blood_free_slot_1 type="number">0</resistance_blood_free_slot_1>
 			<resistance_blood_free_slot_2 type="number">0</resistance_blood_free_slot_2>
@@ -700,7 +748,7 @@
 			<resistance_reputation_free_slot_1 type="number">0</resistance_reputation_free_slot_1>
 			<resistance_reputation_free_slot_2 type="number">0</resistance_reputation_free_slot_2>
 			<resistance_reputation_free_slot_3 type="number">0</resistance_reputation_free_slot_3>
-			<resistance_reputation_free_slot_4 type="number">0</resistance_reputation_free_slot_4>
+			<resistance_reputation_free_slot_4 type="number">1</resistance_reputation_free_slot_4>
 			<resistance_reputation_free_slot_5 type="number">1</resistance_reputation_free_slot_5>
 			<resistance_shadow_free_slot_1 type="number">0</resistance_shadow_free_slot_1>
 			<resistance_shadow_free_slot_2 type="number">0</resistance_shadow_free_slot_2>
@@ -721,10 +769,10 @@
 			<skill_resist type="number">0</skill_resist>
 			<skill_sneak type="number">0</skill_sneak>
 			<skill_steal type="number">0</skill_steal>
-			<stress_blood type="number">0</stress_blood>
-			<stress_mind type="number">0</stress_mind>
+			<stress_blood type="number">4</stress_blood>
+			<stress_mind type="number">7</stress_mind>
 			<stress_reputation type="number">3</stress_reputation>
-			<stress_shadow type="number">0</stress_shadow>
+			<stress_shadow type="number">3</stress_shadow>
 			<stress_silver type="number">0</stress_silver>
 			<token type="token">portrait_id-00004_token</token>
 		</id-00004>
@@ -794,6 +842,19 @@
 						<p>When you wear your mask and stand in a crowd, you will blend into the background (though not become invisible) unless you do something out of the ordinary to at tract attention.</p>
 					</text>
 				</id-00005>
+				<id-00006>
+					<holder name="Vzaretskiy" owner="true" />
+					<name type="string">THE SAINT OF BLOOD</name>
+					<shortcut type="windowreference">
+						<class>ability</class>
+						<recordname />
+					</shortcut>
+					<text type="formattedtext">
+						<p>[Divine]</p>
+						<p>You sacrifice others to the god hidden in your blade. Your bound weapon can drink the blood of others and fill you with vigour.</p>
+						<p>Once per situation, when you hit with your weapon, remove D6 stress from Blood.</p>
+					</text>
+				</id-00006>
 			</abilitylist>
 			<background type="string">Abilities Used: Session/Ability\n2a:</background>
 			<class type="string">Bound</class>
@@ -801,7 +862,7 @@
 				<holder name="Vzaretskiy" owner="true" />
 				<id-00001>
 					<holder name="Vzaretskiy" owner="true" />
-					<amount type="number">0</amount>
+					<amount type="number">2</amount>
 					<name type="string">Polter: Their collection of Moon Pebbles is most important to them. We met while enlisted. I saved his hide more than once.</name>
 				</id-00001>
 				<id-00004>
@@ -820,6 +881,7 @@
 			<domain_religion type="number">0</domain_religion>
 			<domain_technology type="number">0</domain_technology>
 			<durance type="string">Enlisted</durance>
+			<fallout_blood type="string">Broken Leg</fallout_blood>
 			<inventorylist>
 				<holder name="Vzaretskiy" owner="true" />
 				<id-00001>
@@ -853,13 +915,13 @@
 					<name type="string">God-Axe (D6. Bound)</name>
 				</id-00005>
 			</inventorylist>
-			<name type="string">Karak</name>
+			<name type="string">Karak(Broken Leg)</name>
 			<notes type="string">Sulphur: Pitch-black runoff from demonic incur sions, rendered down into crystals that are smoked \nin glass pipes. Produces a monumental rush and \nskews the morality of the user, so that performing \nunpleasant or cruel acts feels better and better the \nmore you take. Usually tremendously expensive, \nthe appearance of cheap sulphur is a sign of in Spire demon-summoning – which is terrible news \nfor everyone.\nAlternately, it can be ground to a powder and injected, though this is typically the high-class way to consume it.</notes>
 			<refresh type="string">Bring a criminal to justice.</refresh>
 			<resistance_blood_free_slot_1 type="number">1</resistance_blood_free_slot_1>
 			<resistance_blood_free_slot_2 type="number">1</resistance_blood_free_slot_2>
 			<resistance_blood_free_slot_3 type="number">1</resistance_blood_free_slot_3>
-			<resistance_blood_free_slot_4 type="number">0</resistance_blood_free_slot_4>
+			<resistance_blood_free_slot_4 type="number">1</resistance_blood_free_slot_4>
 			<resistance_blood_free_slot_5 type="number">0</resistance_blood_free_slot_5>
 			<resistance_mind_free_slot_1 type="number">1</resistance_mind_free_slot_1>
 			<resistance_mind_free_slot_2 type="number">0</resistance_mind_free_slot_2>
@@ -890,13 +952,286 @@
 			<skill_resist type="number">0</skill_resist>
 			<skill_sneak type="number">1</skill_sneak>
 			<skill_steal type="number">0</skill_steal>
-			<stress_blood type="number">4</stress_blood>
+			<stress_blood type="number">0</stress_blood>
 			<stress_mind type="number">2</stress_mind>
-			<stress_reputation type="number">3</stress_reputation>
+			<stress_reputation type="number">1</stress_reputation>
 			<stress_shadow type="number">0</stress_shadow>
-			<stress_silver type="number">1</stress_silver>
+			<stress_silver type="number">0</stress_silver>
 			<token type="token">portrait_id-00005_token</token>
 		</id-00005>
+		<id-00006>
+			<holder name="Vzaretskiy" owner="true" />
+			<abilitylist>
+				<holder name="Vzaretskiy" owner="true" />
+				<id-00001>
+					<public />
+					<holder name="Vzaretskiy" owner="true" />
+					<locked type="number">0</locked>
+					<name type="string">HYENA(Tolz)</name>
+					<text type="formattedtext">
+						<p>HYENA. You have a companion hyena who obeys your commands. At character creation, pick two commands that your hyena understands. At the start of your turn, choose one command to give to your hyena from the list that it understands so long as it can hear you speak:</p>
+						<p>SIC &#8216;EM: When you launch a surprise melee attack on a target, your attacks gain the Brutal tag.</p>
+						<p>SCOUT: When you attack at range from a position of hiding, your attacks gain the Brutal tag.</p>
+						<p>GROWL: When you intimidate or drive away some one, do so with mastery.</p>
+						<p>GUARD: When you take stress to Blood, take 1 less stress than the result rolled to a minimum of 1.</p>
+						<p>FETCH: When you hunt down a target that you can see and hear, do so with mastery.</p>
+						<p>SCENT: When you sniff around a scene for clues, do so with mastery.&#13;&#13;SPEAK(New Tricks #1): Tollz can speak in your voice, though much rougher.</p>
+						<p>VANISH(New Tricks #2): Tollz can hide in the shadows. Unseen and unheard.</p>
+					</text>
+				</id-00001>
+				<id-00002>
+					<holder name="Vzaretskiy" owner="true" />
+					<locked type="number">1</locked>
+					<name type="string">LAY OF THE LANDS</name>
+					<text type="formattedtext">
+						<p>LAY OF THE LAND: You are a trained hunter, and others would do well to heed your words. When you enter a dangerous situation, you can name up to three features or opportunities that your allies can take advantage of. The first time you or an ally uses an opportunity, they roll with mastery (for ex ample: cover with a good view of the battlefield, an exit, a badly-guarded door, a stack of barrels, etc).</p>
+					</text>
+				</id-00002>
+				<id-00003>
+					<holder name="Vzaretskiy" owner="true" />
+					<locked type="number">1</locked>
+					<name type="string">DEAD FLESH</name>
+					<text type="formattedtext">
+						<p>DEAD FLESH. [Divine] You are well-liked amongst the slums of New Heaven, as you are able to make rotting food edible once more. +2 Reputation. You can call upon Charnel to bless rotting or spoiled food, casting the decay out of it, and making it safe to consume, as a five-minute ritual.</p>
+					</text>
+				</id-00003>
+				<id-00004>
+					<public />
+					<holder name="Vzaretskiy" owner="true" />
+					<locked type="number">0</locked>
+					<name type="string">CACKLE</name>
+					<text type="formattedtext">
+						<p>CACKLE. [Divine] You are a terror of New Heaven, and your enemies quake at your approach. +1 Reputation. Mark D3 stress to Mind or Body to unleash a nightmarish cackle in concert with your hyena that strikes fear into the hearts of your enemies (and anyone else within earshot). For the next minute or so, if your enemies have a difficulty rating, it is one lower.</p>
+					</text>
+				</id-00004>
+				<id-00005>
+					<public />
+					<holder name="Vzaretskiy" owner="true" />
+					<locked type="number">1</locked>
+					<name type="string">NEW TRICKS</name>
+					<text type="formattedtext">
+						<p>NEW TRICKS. Your hyena is unusually well-trained. Gain the Compel skill. Choose two more commands that your hyena understands.&#13;&#13;</p>
+					</text>
+				</id-00005>
+				<id-00006>
+					<public />
+					<holder name="Vzaretskiy" owner="true" />
+					<locked type="number">1</locked>
+					<name type="string">ALPHA</name>
+					<text type="formattedtext">
+						<p>ALPHA. You hold great power over your sacred beast. +1 Reputation. At the start of your turn, choose two commands for your hyena to obey.</p>
+					</text>
+				</id-00006>
+			</abilitylist>
+			<class type="string">Carrion-Priest</class>
+			<coins>
+				<holder name="Vzaretskiy" owner="true" />
+				<id-00001>
+					<holder name="Vzaretskiy" owner="true" />
+					<amount type="number">1</amount>
+					<name type="string">(P.37) Wark- Cultivates Hyena's to make the fastest and strongest.</name>
+				</id-00001>
+				<id-00002>
+					<holder name="Vzaretskiy" owner="true" />
+					<amount type="number">1</amount>
+					<name type="string">Cric- A man with an obsession with recording all deaths/missing persons.</name>
+				</id-00002>
+				<id-00003>
+					<holder name="Vzaretskiy" owner="true" />
+					<amount type="number">1</amount>
+					<name type="string">Porrel- Provides a service to transport bodies to the top of the spire.</name>
+				</id-00003>
+				<id-00004>
+					<holder name="Vzaretskiy" owner="true" />
+					<amount type="number">2</amount>
+					<name type="string">Zenoglos- I helped despose of a half breed brood(New Dawn Of Hope)</name>
+				</id-00004>
+			</coins>
+			<domain_academia type="number">1</domain_academia>
+			<domain_commerce type="number">0</domain_commerce>
+			<domain_crime type="number">0</domain_crime>
+			<domain_high_society type="number">0</domain_high_society>
+			<domain_low_society type="number">1</domain_low_society>
+			<domain_occult type="number">0</domain_occult>
+			<domain_order type="number">0</domain_order>
+			<domain_religion type="number">1</domain_religion>
+			<domain_technology type="number">0</domain_technology>
+			<durance type="string">SAGE(p27)</durance>
+			<inventorylist>
+				<holder name="Vzaretskiy" owner="true" />
+				<id-00001>
+					<holder name="Vzaretskiy" owner="true" />
+					<carried type="number">1</carried>
+					<count type="number">1</count>
+					<name type="string">Leather and robes: Armour 2</name>
+				</id-00001>
+				<id-00002>
+					<holder name="Vzaretskiy" owner="true" />
+					<carried type="number">1</carried>
+					<count type="number">1</count>
+					<name type="string">Hyena(Tollz) (see page 38)</name>
+				</id-00002>
+				<id-00003>
+					<holder name="Vzaretskiy" owner="true" />
+					<carried type="number">1</carried>
+					<count type="number">1</count>
+					<name type="string">War-cleaver (D6) and Preyhook (D3, Ranged, Stunning)</name>
+				</id-00003>
+			</inventorylist>
+			<name type="string">Borel Bellgivh</name>
+			<refresh type="string">Complete a hunt and take your guarry.</refresh>
+			<resistance_blood_free_slot_1 type="number">1</resistance_blood_free_slot_1>
+			<resistance_blood_free_slot_2 type="number">1</resistance_blood_free_slot_2>
+			<resistance_blood_free_slot_3 type="number">0</resistance_blood_free_slot_3>
+			<resistance_blood_free_slot_4 type="number">0</resistance_blood_free_slot_4>
+			<resistance_blood_free_slot_5 type="number">0</resistance_blood_free_slot_5>
+			<resistance_mind_free_slot_1 type="number">1</resistance_mind_free_slot_1>
+			<resistance_mind_free_slot_2 type="number">1</resistance_mind_free_slot_2>
+			<resistance_mind_free_slot_3 type="number">0</resistance_mind_free_slot_3>
+			<resistance_mind_free_slot_4 type="number">0</resistance_mind_free_slot_4>
+			<resistance_mind_free_slot_5 type="number">0</resistance_mind_free_slot_5>
+			<resistance_reputation_free_slot_1 type="number">1</resistance_reputation_free_slot_1>
+			<resistance_reputation_free_slot_2 type="number">1</resistance_reputation_free_slot_2>
+			<resistance_reputation_free_slot_3 type="number">0</resistance_reputation_free_slot_3>
+			<resistance_reputation_free_slot_4 type="number">0</resistance_reputation_free_slot_4>
+			<resistance_reputation_free_slot_5 type="number">0</resistance_reputation_free_slot_5>
+			<resistance_shadow_free_slot_1 type="number">0</resistance_shadow_free_slot_1>
+			<resistance_shadow_free_slot_2 type="number">0</resistance_shadow_free_slot_2>
+			<resistance_shadow_free_slot_3 type="number">0</resistance_shadow_free_slot_3>
+			<resistance_shadow_free_slot_4 type="number">0</resistance_shadow_free_slot_4>
+			<resistance_shadow_free_slot_5 type="number">0</resistance_shadow_free_slot_5>
+			<resistance_silver_free_slot_1 type="number">0</resistance_silver_free_slot_1>
+			<resistance_silver_free_slot_2 type="number">0</resistance_silver_free_slot_2>
+			<resistance_silver_free_slot_3 type="number">0</resistance_silver_free_slot_3>
+			<resistance_silver_free_slot_4 type="number">0</resistance_silver_free_slot_4>
+			<resistance_silver_free_slot_5 type="number">0</resistance_silver_free_slot_5>
+			<skill_compel type="number">1</skill_compel>
+			<skill_deceive type="number">0</skill_deceive>
+			<skill_fight type="number">0</skill_fight>
+			<skill_fix type="number">0</skill_fix>
+			<skill_investigate type="number">0</skill_investigate>
+			<skill_pursue type="number">1</skill_pursue>
+			<skill_resist type="number">1</skill_resist>
+			<skill_sneak type="number">1</skill_sneak>
+			<skill_steal type="number">0</skill_steal>
+			<stress_blood type="number">2</stress_blood>
+			<stress_mind type="number">1</stress_mind>
+			<stress_reputation type="number">0</stress_reputation>
+			<stress_shadow type="number">0</stress_shadow>
+			<stress_silver type="number">0</stress_silver>
+			<token type="token">portrait_id-00006_token</token>
+		</id-00006>
+		<id-00007>
+			<holder name="gaerlan" owner="true" />
+			<abilitylist>
+				<holder name="gaerlan" owner="true" />
+				<id-00001>
+					<holder name="gaerlan" owner="true" />
+					<name type="string">Rite of Respite</name>
+					<text type="formattedtext">
+						<p>[Divine] You create a place of stillness and healing. Once per session, lead your allies in a recuperation session while you hold vigil. Describe how you create a comfortable, healing environment and how you help them. All allies present may restore 3 stress from Mind or Blood.</p>
+					</text>
+				</id-00001>
+				<id-00002>
+					<holder name="gaerlan" owner="true" />
+					<name type="string">Moonlight</name>
+					<text type="formattedtext">
+						<p>[Divine] Limy&#233;&#8217;s light shines forth from you. Your forehead gem (or necklace, or bracelet, etc) glows as brightly as the full moon, casting a calm light into the darkness that cannot be extinguished unless you decide to snuff it, or you fall unconscious. The more ritualists casting this spell simultaneously, the brighter the light becomes.</p>
+					</text>
+				</id-00002>
+				<id-00003>
+					<holder name="gaerlan" owner="true" />
+					<name type="string">Friend to the Downtrodden</name>
+					<text type="formattedtext">
+						<p>You can sense who most needs your help. +1 Reputation. Once per situation, ask the GM which NPC is most in need of help, and they&#8217;ll tell you.</p>
+					</text>
+				</id-00003>
+				<id-00004>
+					<holder name="gaerlan" owner="true" />
+					<name type="string">Rite of the Silver Sanctuary</name>
+					<text type="formattedtext">
+						<p>[Divine] You mark a room as sacred to the goddess, barring the entry of trespassers. Anoint the walls of an area (the size of a large room) with silver pigment mixed with sacred oils and mark D3 stress to Mind. If you are present in the area, you can stop or slow unwelcome guests from coming inside &#8211; if someone attempts to enter the area and you don&#8217;t want them to, they take D6 stress. They can sense this beforehand and choose not to enter if they wish.</p>
+					</text>
+				</id-00004>
+				<id-00005>
+					<holder name="gaerlan" owner="true" />
+					<name type="string">Scryatrix Nascen</name>
+					<text type="formattedtext">
+						<p>[Divine] You possess uncanny senses, and take the first step along the path of the blind seer. Spend ten minutes meditating and attuning to the area around you to uncover strangeness or things out of place. You may then ask the GM to reveal something hidden to you in your immediate area: this can be an item, a motivation, a pathway, etc. The GM will relay the information to you as a vision or sensation, not hard data.</p>
+					</text>
+				</id-00005>
+				<id-00006>
+					<holder name="gaerlan" owner="true" />
+					<name type="string">Scryatrix Inanis</name>
+					<text type="formattedtext">
+						<p>[Divine] You are accepted into the first circle of the Scryatrices, the blind seers of Our Glorious Lady. You must have the SCRYATRIX NASCEN advance to purchase this advance. As part of an hour-long ritual, cover your eyes with cloth and silver &#8211; preferably spider-silk and broad, curved eye-shields with Our Lady&#8217;s symbol on the inside of each. While you wear the covering, you can&#8217;t see normally, but you can see the auras of people and places around you. Their auras show information about them that they simply cannot hide, cluing you in as to whether they&#8217;re under supernatural influence, undead, or an occultist.</p>
+						<p />
+						<p>For each point of stress you mSark against Mind when casting this spell, you are able to &#8220;see&#8221; one item from the following list:</p>
+						<p />
+						<p>&#8226; Any bonds the character has, or any important relationships if they&#8217;re an NPC</p>
+						<p>&#8226; The target&#8217;s current numerical stress values</p>
+						<p>&#8226; The subject&#8217;s skills and domains</p>
+						<p>&#8226; Whether the target is undead, possessed or haunted (or is a ghost)</p>
+						<p>&#8226; Whether the character has cast a spell in recent memory, and what it was</p>
+						<p>&#8226; The character&#8217;s emotional state</p>
+						<p />
+						<p>The spell lasts until you remove the bindings. Increase the difficulty of all other tasks by at least 1 when doing anything else, as you&#8217;re effectively blind &#8211; certain tasks, like reading a book or looking for something in a painting, are impossible.</p>
+					</text>
+				</id-00006>
+			</abilitylist>
+			<class type="string">Lajhan</class>
+			<coins>
+				<holder name="gaerlan" owner="true" />
+				<id-00001>
+					<holder name="gaerlan" owner="true" />
+				</id-00001>
+				<id-00002>
+					<holder name="gaerlan" owner="true" />
+				</id-00002>
+			</coins>
+			<domain_low_society type="number">1</domain_low_society>
+			<domain_religion type="number">1</domain_religion>
+			<durance type="string">Acolyte</durance>
+			<inventorylist>
+				<holder name="gaerlan" owner="true" />
+				<id-00001>
+					<holder name="gaerlan" owner="true" />
+					<carried type="number">1</carried>
+					<count type="number">1</count>
+					<name type="string">Ceremonial robes</name>
+				</id-00001>
+				<id-00002>
+					<holder name="gaerlan" owner="true" />
+					<carried type="number">1</carried>
+					<count type="number">1</count>
+					<name type="string">Set of wooden &amp; silver jewellery</name>
+				</id-00002>
+				<id-00003>
+					<holder name="gaerlan" owner="true" />
+					<carried type="number">1</carried>
+					<count type="number">1</count>
+					<name type="string">L'od Nansan Knife (d3, concealable)</name>
+				</id-00003>
+				<id-00004>
+					<holder name="gaerlan" owner="true" />
+					<carried type="number">1</carried>
+					<count type="number">1</count>
+					<name type="string">Healer's kit</name>
+				</id-00004>
+			</inventorylist>
+			<name type="string">Eugolof</name>
+			<refresh type="string">Help those who cannot help themselves</refresh>
+			<resistance_mind_free_slot_2 type="number">1</resistance_mind_free_slot_2>
+			<resistance_mind_free_slot_3 type="number">1</resistance_mind_free_slot_3>
+			<resistance_mind_free_slot_4 type="number">1</resistance_mind_free_slot_4>
+			<resistance_mind_free_slot_5 type="number">1</resistance_mind_free_slot_5>
+			<resistance_reputation_free_slot_1 type="number">0</resistance_reputation_free_slot_1>
+			<resistance_reputation_free_slot_4 type="number">1</resistance_reputation_free_slot_4>
+			<resistance_reputation_free_slot_5 type="number">1</resistance_reputation_free_slot_5>
+			<skill_fix type="number">1</skill_fix>
+			<skill_resist type="number">1</skill_resist>
+			<token type="token">portrait_id-00007_token</token>
+		</id-00007>
 	</charsheet>
 	<chat>
 		<public />
@@ -966,12 +1301,13 @@
 						<type>token</type>
 						<token>
 							<prototype>portraits/FG Fantasy/darkelf_female_fantasy.jpg</prototype>
+							<prototype3Dflat />
 							<id>1</id>
 							<publicedit />
 							<fowenabled />
 							<visibility>mask</visibility>
 						</token>
-						<matrix>0.1999969,0,0,0,0,0.1999512,0,0,0,0,1,0,50,-875,0,1</matrix>
+						<matrix>0.2,-1.585488E-06,0,0,1.585488E-06,0.2,0,0,0,0,0,0,-75,-550,0,1</matrix>
 					</layer>
 				</layers>
 			</image>
@@ -1159,7 +1495,9 @@
 	<npc />
 	<options>
 		<public />
-		<CHATFONTCOLORS type="string">dark</CHATFONTCOLORS>
+		<CHATFONTCOLORS type="string">off</CHATFONTCOLORS>
+		<CHATGMICON type="string">default</CHATGMICON>
+		<CHATGMICONCOLOR type="string">red</CHATGMICONCOLOR>
 		<CHATICONTHEME type="string">square</CHATICONTHEME>
 		<DDCL-custom type="string">-</DDCL-custom>
 		<PSIN type="string">on</PSIN>
@@ -1262,4 +1600,5 @@
 			</id-00006>
 		</tokenlight>
 	</settings>
+	<tables />
 </root>
